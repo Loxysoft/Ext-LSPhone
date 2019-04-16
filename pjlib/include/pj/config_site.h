@@ -20,7 +20,7 @@
  */
 
 // ENABLE VIDEO
-#define PJMEDIA_HAS_VIDEO 1
+#define PJMEDIA_HAS_VIDEO 0
 
 #define PJ_WIN32 1
 #define PJ_HAS_SSL_SOCK 1
