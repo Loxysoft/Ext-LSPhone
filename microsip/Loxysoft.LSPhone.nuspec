@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="3.3.0">
+    <id>Loxysoft.LSPhone</id>
+    <version>1.0.0</version>
+    <title>Loxysoft.LSPhone</title>
+    <authors>niklas</authors>
+    <owners>Loxysoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>LSPhone is a portable SIP softphone. It is a custom build of MicroSIP (https://www.microsip.org).</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="..\Release\LSPhone.exe" target="content\LSPhone\LSPhone.exe" />
+	<file src="installer\media\hangup.wav" target="content\LSPhone\hangup.wav" />
+    <file src="installer\media\messagein.wav" target="content\LSPhone\messagein.wav" />
+    <file src="installer\media\messageout.wav" target="content\LSPhone\messageout.wav" />
+    <file src="installer\media\ringin.wav" target="content\LSPhone\ringin.wav" />
+    <file src="installer\media\ringin2.wav" target="content\LSPhone\ringin2.wav" />
+    <file src="installer\media\ringout.wav" target="content\LSPhone\ringout.wav" />
+  </files>
+</package>
