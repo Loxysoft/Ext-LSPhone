@@ -1,0 +1,13 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Copy the files to bin before the build -->
+  <Target Name="CopyLSPhoneToBin" BeforeTargets="BeforeBuild">
+    <ItemGroup>
+      <FilesToCopy Include="$(MSBuildThisFileDirectory)..\LSPhone\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(TargetDir)LSPhone" SkipUnchangedFiles="true" />
+  </Target>
+  <!-- Delete the files from bin after clean -->
+  <Target Name="DeleteLSPhoneFromBin" BeforeTargets="AfterClean">
+    <RemoveDir Directories="$(TargetDir)LSPhone" />
+  </Target>
+</Project>
