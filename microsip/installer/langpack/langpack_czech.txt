@@ -9,8 +9,6 @@ Volat
 Zavěsit
 [Contacts]
 Kontakty
-[Phone]
-Číselník
 [Account]
 Účet
 [Settings]
@@ -19,8 +17,6 @@ Nastavení
 Navštívit web
 [Exit]
 Ukončit program
-[Ringtone]
-Zvuk vyzvánění
 [Browse...]
 Procházet...
 [Default]
@@ -39,8 +35,6 @@ Zrušit
 SIP server
 [SIP Proxy]
 SIP proxy
-[Username]
-Uživatel
 [Domain]
 Doména
 [Password]
@@ -145,14 +139,8 @@ Měsíčně
 Nikdy
 [Update Available]
 Aktualizace dostupná
-[Do you want to update now?]
-Chcete nyní aktualizovat program?
 [Force Codec for Incoming]
 Vynucený kodek pro příchozí
-[Available Codecs]
-Dostupné kodeky
-[Enabled Codecs]
-Povolené kodeky
 [Invalid URI]
 Neplatné URI
 [Offline]
@@ -179,8 +167,6 @@ Datový tok
 Přihlaš. jméno
 [Enable Log File]
 Povolit logování
-[Logs]
-Hovory
 [Duration]
 Trvání
 [Info]
@@ -279,10 +265,24 @@ Ztišit mikrofon
 Prosím, vyplňte alespoň povinné údaje označené *
 [Ask your SIP provider how to configure the account correctly.]
 Zeptejte se svého poskytovatele SIP jak správně nastavit účet.
-[Random Popup Position]
-Náhodné umístění okna
 [Time]
 Čas
+[Phone]
+Číselník
+[Ringtone]
+Zvuk vyzvánění
+[Username]
+Uživatel
+[Do you want to update now?]
+Chcete nyní aktualizovat program?
+[Available Codecs]
+Dostupné kodeky
+[Enabled Codecs]
+Povolené kodeky
+[Logs]
+Hovory
+[Random Popup Position]
+Náhodné umístění okna
 [Attended Transfer]
 Přepojit na aktivní hov.
 [Launch URL on incoming call]

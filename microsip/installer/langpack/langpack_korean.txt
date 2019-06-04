@@ -9,8 +9,6 @@ RTL: 0
 통화 종료
 [Contacts]
 연락처
-[Phone]
-다이얼
 [Account]
 계정
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 홈페이지 방문
 [Exit]
 종료
-[Ringtone]
-벨소리
 [Browse...]
 변경...
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP 서버
 [SIP Proxy]
 SIP 프록시
-[Username]
-사용자
 [Domain]
 도메인
 [Password]
@@ -145,14 +139,8 @@ STUN 서버
 끄기
 [Update Available]
 업데이트 사용 가능
-[Do you want to update now?]
-를 업데이트 하시겠습니까?
 [Force Codec for Incoming]
 수신 코덱 강제
-[Available Codecs]
-사용가능
-[Enabled Codecs]
-활성화
 [Invalid URI]
 잘못된 URI
 [Offline]
@@ -179,8 +167,6 @@ STUN 서버
 로그인
 [Enable Log File]
 로그 생성 활성화
-[Logs]
-통화목록
 [Duration]
 기간
 [Info]
@@ -279,10 +265,24 @@ IP 재 작성 추척 허용
 최소 * 표시가 있는 항목을 채워 주세요.
 [Ask your SIP provider how to configure the account correctly.]
 올바르게 계정을 구성하는 방법은 SIP 공급자에게 문의하십시오.
-[Random Popup Position]
-걸려 오는 전화 상자의 임의의 위치
 [Time]
 시각
+[Phone]
+다이얼
+[Ringtone]
+벨소리
+[Username]
+사용자
+[Do you want to update now?]
+를 업데이트 하시겠습니까?
+[Available Codecs]
+사용가능
+[Enabled Codecs]
+활성화
+[Logs]
+통화목록
+[Random Popup Position]
+걸려 오는 전화 상자의 임의의 위치
 [Attended Transfer]
 (의도된)전송
 [Launch URL on incoming call]

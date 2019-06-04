@@ -20,7 +20,6 @@
 
 #include "define.h"
 #include "stdafx.h"
-#include "addons.h"
 #include <afxmt.h>
 #include <pjsua-lib/pjsua.h>
 #include <pjsua-lib/pjsua_internal.h>
@@ -67,6 +66,7 @@ enum EUserWndMessages
 	IDT_TIMER_HEADSET,
 	IDT_TIMER_VU_METER,
 	IDT_TIMER_AUTOANSWER,
+	IDT_TIMER_PROGRESS,
 	UM_CLOSETAB,
 	UM_DBLCLICKTAB,
 	UM_QUERYTAB,
@@ -103,6 +103,12 @@ struct Shortcut {
 	CString label;
 	CString number;
 	msip_shortcut_type type;
+};
+
+struct player_eof_data
+{
+	pj_pool_t          *pool;
+	pjsua_player_id player_id;
 };
 
 struct SIPURI {
@@ -288,7 +294,7 @@ void msip_conference_leave(pjsua_call_info *call_info, bool hold = false);
 void msip_call_hold(pjsua_call_info *call_info);
 void msip_call_unhold(pjsua_call_info *call_info = NULL);
 void msip_call_answer(pjsua_call_id call_id = PJSUA_INVALID_ID);
-void msip_call_busy(pjsua_call_id call_id);
+void msip_call_busy(pjsua_call_id call_id, CString reason = _T(""));
 void msip_call_recording_start(call_user_data *user_data, pjsua_call_info *call_info = NULL);
 void msip_call_recording_stop(call_user_data *user_data); 
 CStringA msip_md5sum(CString *str);

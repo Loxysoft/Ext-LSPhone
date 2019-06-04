@@ -9,8 +9,6 @@ Hívás
 Befejezés
 [Contacts]
 Névjegyek
-[Phone]
-Tárcsázó
 [Account]
 Fiók
 [Settings]
@@ -19,8 +17,6 @@ Beállítások
 Honlap
 [Exit]
 Kilépés
-[Ringtone]
-Csengőhang
 [Browse...]
 Tallózás...
 [Default]
@@ -39,8 +35,6 @@ Mégse
 SIP szerver
 [SIP Proxy]
 SIP proxy
-[Username]
-Felhasználónév
 [Domain]
 Domain
 [Password]
@@ -145,14 +139,8 @@ Negyedévenként
 Soha
 [Update Available]
 Frissítés érhető el
-[Do you want to update now?]
-Szeretné frissíteni a programot?
 [Force Codec for Incoming]
 Kodek kényszerítése a bejövő hívásokra
-[Available Codecs]
-Elérhető
-[Enabled Codecs]
-Engedélyezve
 [Invalid URI]
 Érvénytelen URI
 [Offline]
@@ -179,8 +167,6 @@ Bitráta
 Bejelentkezés
 [Enable Log File]
 Naplózás engedélyezés
-[Logs]
-Hívások
 [Duration]
 Időtartam
 [Info]
@@ -279,10 +265,24 @@ Mikrofon némítása
 Kérjük, töltse ki legalább a kötelező, *-gal jelölt mezőket.
 [Ask your SIP provider how to configure the account correctly.]
 Kérdezze meg a SIP-szolgáltatót, hogyan kell beállítani a fiókot helyesen.
-[Random Popup Position]
-Véletlenszerű pozíció
 [Time]
 Idő
+[Phone]
+Tárcsázó
+[Ringtone]
+Csengőhang
+[Username]
+Felhasználónév
+[Do you want to update now?]
+Szeretné frissíteni a programot?
+[Available Codecs]
+Elérhető
+[Enabled Codecs]
+Engedélyezve
+[Logs]
+Hívások
+[Random Popup Position]
+Véletlenszerű pozíció
 [Attended Transfer]
 Hívásátkapcsolás
 [Launch URL on incoming call]
@@ -337,7 +337,9 @@ Vezérlőgomb
 [Do Not Disturb]
 Ne Zavarjanak
 [Source Port]
+Forrás port
 [RTP Ports]
+RTP portok
 [Unregister the account when the operator is Away]
 [Ask for the sip USER and SECRET everytime]
 [Import]
@@ -348,7 +350,9 @@ Import
 [Redial]
 Újrahívás
 [Backspace]
+Visszatörlés
 [Clear]
+Törtlés
 [Use Space key to enable selected codec]
 Space-el a kiválasztott codec engedélyezve
 [Use Delele key to disable selected codec]

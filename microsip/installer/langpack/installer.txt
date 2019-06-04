@@ -11,7 +11,7 @@
 !insertmacro MUI_LANGUAGE "Croatian"
 !insertmacro MUI_LANGUAGE "Czech"
 !insertmacro MUI_LANGUAGE "Danish"
-!insertmacro MUI_LANGUAGE "DutchNetherlands"
+!insertmacro MUI_LANGUAGE "Dutch"
 !insertmacro MUI_LANGUAGE "Esperanto"
 !insertmacro MUI_LANGUAGE "Estonian"
 !insertmacro MUI_LANGUAGE "Farsi"
@@ -20,6 +20,7 @@
 !insertmacro MUI_LANGUAGE "Galician"
 !insertmacro MUI_LANGUAGE "Georgian"
 !insertmacro MUI_LANGUAGE "German"
+!insertmacro MUI_LANGUAGE "GermanSwitzerland"
 !insertmacro MUI_LANGUAGE "Greek"
 !insertmacro MUI_LANGUAGE "Hebrew"
 !insertmacro MUI_LANGUAGE "Hungarian"
@@ -86,7 +87,7 @@ File "${PREFIX}langpack_czech.txt"
 IntCmpU $LANGUAGE 1030 0 +2 +2
 File "${PREFIX}langpack_danish.txt"
 IntCmpU $LANGUAGE 1043 0 +2 +2
-File "${PREFIX}langpack_dutchnetherlands.txt"
+File "${PREFIX}langpack_dutch.txt"
 IntCmpU $LANGUAGE 9998 0 +2 +2
 File "${PREFIX}langpack_esperanto.txt"
 IntCmpU $LANGUAGE 1061 0 +2 +2
@@ -103,6 +104,8 @@ IntCmpU $LANGUAGE 1079 0 +2 +2
 File "${PREFIX}langpack_georgian.txt"
 IntCmpU $LANGUAGE 1031 0 +2 +2
 File "${PREFIX}langpack_german.txt"
+IntCmpU $LANGUAGE 2055 0 +2 +2
+File "${PREFIX}langpack_germanswitzerland.txt"
 IntCmpU $LANGUAGE 1032 0 +2 +2
 File "${PREFIX}langpack_greek.txt"
 IntCmpU $LANGUAGE 1037 0 +2 +2

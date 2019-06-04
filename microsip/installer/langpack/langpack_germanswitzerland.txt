@@ -9,8 +9,6 @@ Anrufen
 Beenden
 [Contacts]
 Kontakte
-[Phone]
-Tastatur
 [Account]
 Benutzerkonto
 [Settings]
@@ -19,8 +17,6 @@ Einstellungen
 Website besuchen
 [Exit]
 Programm schließen
-[Ringing Sound]
-Rufzeichen
 [Browse...]
 Durchsuchen...
 [Default]
@@ -39,8 +35,6 @@ Abbrechen
 SIP Server
 [SIP Proxy]
 SIP Proxy
-[Username]
-Benutzer
 [Domain]
 Domäne
 [Password]
@@ -145,14 +139,8 @@ Quartalsweise
 Niemals
 [Update Available]
 Programmaktualisierung verfügbar
-[Do you want to update now?]
-Möchten Sie aktualisieren?
 [Force Codec for Incoming]
 Eingehenden Codec erzwingen
-[Available Codecs]
-Verfügbare Codecs
-[Enabled Codecs]
-Aktiviert
 [Invalid URI]
 Ungültige URl
 [Offline]
@@ -179,8 +167,6 @@ Bitrae
 Anmelden
 [Enable Log File]
 Protokolldatei aktivieren
-[Logs]
-Anrufe
 [Duration]
 Dauer
 [Info]
@@ -279,10 +265,24 @@ Mikrofon stumm schalten
 Bitte füllen sie mindestens die mit einem * gekennzeichneten, benötigten Felder aus.
 [Ask your SIP provider how to configure the account correctly.]
 Fragen Sie Ihren SIP Provider, wie Ihr Account korrekt konfiguriert werden muss.
-[Random Popup Position]
-Zufällige Position der Antwortbox
 [Time]
 Zeit
+[Phone]
+Tastatur
+[Ringtone]
+Klingelton
+[Username]
+Benutzer
+[Do you want to update now?]
+Möchten Sie aktualisieren?
+[Available Codecs]
+Verfügbare Codecs
+[Enabled Codecs]
+Aktiviert
+[Logs]
+Anrufe
+[Random Popup Position]
+Zufällige Position der Antwortbox
 [Attended Transfer]
 Telefongespräch vermitteln
 [Launch URL on incoming call]
@@ -357,4 +357,5 @@ Löschen
 [Use Delele key to disable selected codec]
 [Make Inactive]
 [Conference]
+Konferenz
 []

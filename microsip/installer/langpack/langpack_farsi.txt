@@ -9,8 +9,6 @@ RTL: 1
 پایان تماس
 [Contacts]
 دفترچه تلفن
-[Phone]
-شماره گیری
 [Account]
 حساب کاربری
 [Settings]
@@ -19,8 +17,6 @@ RTL: 1
 بازدید از وب سایت
 [Exit]
 خروج
-[Ringtone]
-صدای زنگ
 [Browse...]
 مرور
 [Default]
@@ -39,8 +35,6 @@ RTL: 1
 سرور SIP
 [SIP Proxy]
 پروکسی SIP
-[Username]
-کاربر
 [Domain]
 دومین
 [Password]
@@ -145,14 +139,8 @@ RTL: 1
 هرگز
 [Update Available]
 نسخه به روز موجود است
-[Do you want to update now?]
-آیا میخواهید نرم افزار به روز شود؟
 [Force Codec for Incoming]
 اجبار کدک برای تماس ورودی
-[Available Codecs]
-در دسترس
-[Enabled Codecs]
-فعال شده
 [Invalid URI]
 آدرس نامعتبر
 [Offline]
@@ -179,8 +167,6 @@ RTL: 1
 لاگین
 [Enable Log File]
 اجازه لاگ کردن
-[Logs]
-تماسها
 [Duration]
 مدت
 [Info]
@@ -279,10 +265,24 @@ SIP هدر
 لطفا با پر کردن حداقل زمینه های مورد نیاز با * مشخص شده اند.
 [Ask your SIP provider how to configure the account correctly.]
 چگونگی  پیکربندی صحیح حساب کاربری را از ارائه کننده SIP خود بپرسید.
-[Random Popup Position]
-موقعیت تصادفی از جعبه تماس های دریافتی
 [Time]
 زمان
+[Phone]
+شماره گیری
+[Ringtone]
+صدای زنگ
+[Username]
+کاربر
+[Do you want to update now?]
+آیا میخواهید نرم افزار به روز شود؟
+[Available Codecs]
+در دسترس
+[Enabled Codecs]
+فعال شده
+[Logs]
+تماسها
+[Random Popup Position]
+موقعیت تصادفی از جعبه تماس های دریافتی
 [Attended Transfer]
 انتقال حضور
 [Launch URL on incoming call]

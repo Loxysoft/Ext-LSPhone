@@ -9,8 +9,6 @@ RTL: 0
 Завяршыць выклік
 [Contacts]
 Кантакты
-[Phone]
-Набор нумара
 [Account]
 Уліковы запіс
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 Наведаць сайт
 [Exit]
 Выйсці
-[Ringtone]
-Гук выкліку
 [Browse...]
 Агляд...
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP-сервер
 [SIP Proxy]
 SIP-проксі
-[Username]
-Карыстальнік
 [Domain]
 Дамен
 [Password]
@@ -145,14 +139,8 @@ STUN-сервер
 Ніколі
 [Update Available]
 Даступна абнаўленне
-[Do you want to update now?]
-Вы сапраўды жадаеце абнавіць праграму?
 [Force Codec for Incoming]
 Задаць кодэк для ўваходных выклікаў
-[Available Codecs]
-Даступныя кодэкі
-[Enabled Codecs]
-Актыўныя кодэкі
 [Invalid URI]
 Няправільны URI-адрас
 [Offline]
@@ -179,8 +167,6 @@ STUN-сервер
 Лагін
 [Enable Log File]
 Рабіць запіс у журнал
-[Logs]
-Журнал выклікаў
 [Duration]
 Працягласць
 [Info]
@@ -279,10 +265,24 @@ SIP-загаловак
 Калі ласка, прынамсі запоўніце ўсе абавязковыя палі пазначаныя *.
 [Ask your SIP provider how to configure the account correctly.]
 Спытайце вашага SIP-правайдара, як правільна наладзіць уліковы запіс.
-[Random Popup Position]
-Адвольная пазіцыя успл. акна
 [Time]
 Час
+[Phone]
+Набор нумара
+[Ringtone]
+Гук выкліку
+[Username]
+Карыстальнік
+[Do you want to update now?]
+Вы сапраўды жадаеце абнавіць праграму?
+[Available Codecs]
+Даступныя кодэкі
+[Enabled Codecs]
+Актыўныя кодэкі
+[Logs]
+Журнал выклікаў
+[Random Popup Position]
+Адвольная пазіцыя успл. акна
 [Attended Transfer]
 Перавод выкліку з суправаджэннем
 [Launch URL on incoming call]

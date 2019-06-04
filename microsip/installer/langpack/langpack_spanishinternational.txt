@@ -9,8 +9,6 @@ Llamar
 Colgar
 [Contacts]
 Contactos
-[Phone]
-Teclado
 [Account]
 Cuenta
 [Settings]
@@ -19,8 +17,6 @@ Ajustes
 Ir al sitio Web
 [Exit]
 Salir
-[Ringtone]
-Sonido de llamada
 [Browse...]
 Examinar...
 [Default]
@@ -39,8 +35,6 @@ Cancelar
 Servidor SIP
 [SIP Proxy]
 Proxy SIP
-[Username]
-Usuario
 [Domain]
 Dominio
 [Password]
@@ -145,14 +139,8 @@ Trimestralmente
 Nunca
 [Update Available]
 Actualizacion disponible
-[Do you want to update now?]
-¿Desea actualizar MicroSIP ahora?
 [Force Codec for Incoming]
 Forzar codec en llam. entrantes
-[Available Codecs]
-Codecs disponibles
-[Enabled Codecs]
-Codecs activados
 [Invalid URI]
 URI invalida
 [Offline]
@@ -179,8 +167,6 @@ Tasa de Bits
 Ident. usu. autoriz.
 [Enable Log File]
 Activar archivo log
-[Logs]
-Llamadas
 [Duration]
 Duracion
 [Info]
@@ -279,10 +265,24 @@ Silenciar microfono
 Por favor rellene al menos los campos obligatorios marcados con *.
 [Ask your SIP provider how to configure the account correctly.]
 Pregunte a su proveedor SIP cómo configurar la cuenta correctamente.
-[Random Popup Position]
-Pos. aleat. vent. contestacion
 [Time]
 Hora
+[Phone]
+Teclado
+[Ringtone]
+Sonido de llamada
+[Username]
+Usuario
+[Do you want to update now?]
+¿Desea actualizar MicroSIP ahora?
+[Available Codecs]
+Codecs disponibles
+[Enabled Codecs]
+Codecs activados
+[Logs]
+Llamadas
+[Random Popup Position]
+Pos. aleat. vent. contestacion
 [Attended Transfer]
 Transferir con aviso
 [Launch URL on incoming call]

@@ -9,8 +9,6 @@ Ara
 Bitir
 [Contacts]
 Kişiler
-[Phone]
-Tuşlar
 [Account]
 Hesap
 [Settings]
@@ -19,8 +17,6 @@ Ayarlar
 Websitesini ziyaret et
 [Exit]
 Çıkış
-[Ringtone]
-Zil sesi
 [Browse...]
 Göz at...
 [Default]
@@ -39,8 +35,6 @@ Kaydet
 SIP sunucu
 [SIP Proxy]
 SIP vekil sunucu
-[Username]
-Kullanıcı
 [Domain]
 Etki alanı
 [Password]
@@ -82,7 +76,7 @@ Bağlanıyor
 [Connected]
 Bağlandı
 [Auto]
-Kendiliğinden
+Otomatik
 [Transport]
 Nakil
 [Incorrect Password]
@@ -145,14 +139,8 @@ Aylık
 Asla
 [Update Available]
 Güncelleştirme mevcut
-[Do you want to update now?]
-Şimdi güncelleştirmek ister misiniz?
 [Force Codec for Incoming]
 Gelen arama için çözücüyü zorla
-[Available Codecs]
-Uygun
-[Enabled Codecs]
-Etkin
 [Invalid URI]
 Geçersiz URI
 [Offline]
@@ -179,8 +167,6 @@ Bit oranı
 Oturum aç
 [Enable Log File]
 Kayıt dosyasını etkinleştir
-[Logs]
-Aramalar
 [Duration]
 Süre
 [Info]
@@ -279,10 +265,24 @@ Mikrofonu sustur
 Lütfen * ile işaretli alanları doldurun.
 [Ask your SIP provider how to configure the account correctly.]
 Hesap ayarlarını doğru yapmak için SIP servis sağlayıcınıza ulaşın
-[Random Popup Position]
-Konumu değişken cevaplama kutusu
 [Time]
 Zaman
+[Phone]
+Tuşlar
+[Ringtone]
+Zil sesi
+[Username]
+Kullanıcı
+[Do you want to update now?]
+Şimdi güncelleştirmek ister misiniz?
+[Available Codecs]
+Uygun Kodekler
+[Enabled Codecs]
+Etkin
+[Logs]
+Aramalar
+[Random Popup Position]
+Konumu değişken cevaplama kutusu
 [Attended Transfer]
 Aktarma (Bildirimli)
 [Launch URL on incoming call]

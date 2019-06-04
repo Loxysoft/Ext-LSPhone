@@ -9,8 +9,6 @@ Alvoki
 Fini alvokon
 [Contacts]
 Adresaro
-[Phone]
-Telefono
 [Account]
 Konto
 [Settings]
@@ -19,8 +17,6 @@ Agordoj
 Viziti retejon
 [Exit]
 Eliri
-[Ringtone]
-Alvoksono
 [Browse...]
 Esplori...
 [Default]
@@ -37,8 +33,6 @@ Konservi
 Nuligi
 [SIP Server]
 [SIP Proxy]
-[Username]
-Uzulnomo
 [Domain]
 Domajno
 [Password]
@@ -136,14 +130,8 @@ Kontroli ĉu estas ĝisdatigo
 Neniam
 [Update Available]
 Ĝisdatigo haveblas
-[Do you want to update now?]
-Ĉu vi volas ĝisdatigi nun?
 [Force Codec for Incoming]
 Devigi kodekon por envenaj alvokoj
-[Available Codecs]
-Haveblaj kodekoj
-[Enabled Codecs]
-Aktivaj sonkodekoj
 [Invalid URI]
 [Offline]
 Eksterreta
@@ -164,8 +152,6 @@ Bitrapido
 Aŭtentiga nomo
 [Enable Log File]
 Aktivigi protokolan dosieron
-[Logs]
-Protokolo
 [Duration]
 Daŭro
 [Info]
@@ -253,10 +239,24 @@ Silentigi mikrofonon
 Plenigu almenaŭ la devigajn kampojn markitajn per steleto (*).
 [Ask your SIP provider how to configure the account correctly.]
 Demandu vian SIP-provizanton, kiel ĝuste agordi la konton.
-[Random Popup Position]
-Hazarda ŝprucfenestra pozicio
 [Time]
 Horo
+[Phone]
+Telefono
+[Ringtone]
+Alvoksono
+[Username]
+Uzulnomo
+[Do you want to update now?]
+Ĉu vi volas ĝisdatigi nun?
+[Available Codecs]
+Haveblaj kodekoj
+[Enabled Codecs]
+Aktivaj sonkodekoj
+[Logs]
+Protokolo
+[Random Popup Position]
+Hazarda ŝprucfenestra pozicio
 [Attended Transfer]
 Atestita Translokigo
 [Launch URL on incoming call]

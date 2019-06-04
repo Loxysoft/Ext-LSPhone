@@ -9,8 +9,6 @@ Volať
 Koniec hovoru
 [Contacts]
 Kontakty
-[Phone]
-Klávesnica
 [Account]
 Konto
 [Settings]
@@ -19,8 +17,6 @@ Nastavenia
 Navštíviť webovú lokalitu
 [Exit]
 Zavrieť
-[Ringtone]
-Zvuk zvonenia
 [Browse...]
 Prechádzať ...
 [Default]
@@ -39,8 +35,6 @@ Zrušiť
 Server SIP
 [SIP Proxy]
 Proxy SIP
-[Username]
-Požívateľ
 [Domain]
 Doména
 [Password]
@@ -145,14 +139,8 @@ Mesačne
 Nikdy
 [Update Available]
 K dispozícii je aktualizácia
-[Do you want to update now?]
-Chcete aktualizovať?
 [Force Codec for Incoming]
 Vynútiť kodek pre príchodzí hovor
-[Available Codecs]
-Dostupné
-[Enabled Codecs]
-Použité kodeky
 [Invalid URI]
 Nesprávne URI
 [Offline]
@@ -179,8 +167,6 @@ Bitová rýchlosť
 Meno
 [Enable Log File]
 Zapnúť súbor denníka
-[Logs]
-História
 [Duration]
 Trvanie
 [Info]
@@ -279,10 +265,24 @@ Vypnúť mikrofón
 Prosím, vyplňte aspoň požadované polia označené *.
 [Ask your SIP provider how to configure the account correctly.]
 Opýtajte sa svojho poskytovateľa SIP, ako správne nakonfigurovať účet.
-[Random Popup Position]
-Náhodná pozícia okna
 [Time]
 Čas
+[Phone]
+Klávesnica
+[Ringtone]
+Zvuk zvonenia
+[Username]
+Požívateľ
+[Do you want to update now?]
+Chcete aktualizovať?
+[Available Codecs]
+Dostupné
+[Enabled Codecs]
+Použité kodeky
+[Logs]
+História
+[Random Popup Position]
+Náhodná pozícia okna
 [Attended Transfer]
 Prepojenie s konzultáciou
 [Launch URL on incoming call]

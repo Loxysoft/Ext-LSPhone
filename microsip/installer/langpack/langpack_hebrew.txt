@@ -9,8 +9,6 @@ RTL: 1
 סיים שיחה
 [Contacts]
 אנשי קשר
-[Phone]
-לוח חיוג
 [Account]
 חשבון
 [Settings]
@@ -19,8 +17,6 @@ RTL: 1
 עמוד בית
 [Exit]
 יציאה
-[Ringtone]
-קול צלצול
 [Browse...]
 עיון...
 [Default]
@@ -39,8 +35,6 @@ RTL: 1
 שרת SIP
 [SIP Proxy]
 פרוקסי SIP
-[Username]
-שם משתמש
 [Domain]
 מתחם
 [Password]
@@ -145,14 +139,8 @@ RTL: 1
 אף פעם
 [Update Available]
 קיים עדכון זמין
-[Do you want to update now?]
-האם ברצונך לעדכן כעת?
 [Force Codec for Incoming]
 כפה מקודד עבור נכנסוות
-[Available Codecs]
-זמינים
-[Enabled Codecs]
-מאופשרים
 [Invalid URI]
 כתובת שגויה
 [Offline]
@@ -179,8 +167,6 @@ RTL: 1
 התחבר
 [Enable Log File]
 אפשור קובץ תרשים פעילות
-[Logs]
-שיחות
 [Duration]
 משך
 [Info]
@@ -279,10 +265,24 @@ RTL: 1
 מלא לפחות את השדות המסומנים ב*
 [Ask your SIP provider how to configure the account correctly.]
 שאל את מנהל החשבון שלך כיצד להגדיר את השלוחה
-[Random Popup Position]
-עמדה אקראית של תיבת שיחה נכנסת
 [Time]
 זְמַן
+[Phone]
+לוח חיוג
+[Ringtone]
+קול צלצול
+[Username]
+שם משתמש
+[Do you want to update now?]
+האם ברצונך לעדכן כעת?
+[Available Codecs]
+זמינים
+[Enabled Codecs]
+מאופשרים
+[Logs]
+שיחות
+[Random Popup Position]
+עמדה אקראית של תיבת שיחה נכנסת
 [Attended Transfer]
 העברת שיחה עם ליווי
 [Launch URL on incoming call]

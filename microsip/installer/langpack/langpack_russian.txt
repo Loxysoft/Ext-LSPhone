@@ -9,8 +9,6 @@ RTL: 0
 Завершить
 [Contacts]
 Контакты
-[Phone]
-Набор
 [Account]
 Аккаунт
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 Посетить сайт
 [Exit]
 Выход
-[Ringtone]
-Звук вызова
 [Browse...]
 Выбрать...
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP сервер
 [SIP Proxy]
 SIP прокси
-[Username]
-Пользователь
 [Domain]
 Домен
 [Password]
@@ -145,14 +139,8 @@ STUN сервер
 Никогда
 [Update Available]
 Доступно обновление
-[Do you want to update now?]
-Вы хотите обновить сейчас?
 [Force Codec for Incoming]
 Задавать кодек для входящих
-[Available Codecs]
-Доступные кодеки
-[Enabled Codecs]
-Активные кодеки
 [Invalid URI]
 Неправильный номер
 [Offline]
@@ -179,8 +167,6 @@ STUN сервер
 Логин
 [Enable Log File]
 Включить лог файл
-[Logs]
-Вызовы
 [Duration]
 Длительность
 [Info]
@@ -283,10 +269,24 @@ SIP заголовок
 Пожалуйста, заполните все обязательные поля отмеченные *.
 [Ask your SIP provider how to configure the account correctly.]
 Узнайте у вашего SIP провайдера как правильно настроить аккаунт.
-[Random Popup Position]
-Случайная позиция Popup
 [Time]
 Время
+[Phone]
+Набор
+[Ringtone]
+Звук вызова
+[Username]
+Пользователь
+[Do you want to update now?]
+Вы хотите обновить сейчас?
+[Available Codecs]
+Доступные кодеки
+[Enabled Codecs]
+Активные кодеки
+[Logs]
+Вызовы
+[Random Popup Position]
+Случайная позиция Popup
 [Attended Transfer]
 Перевод звонка с сопровождением
 [Launch URL on incoming call]

@@ -18,8 +18,4 @@
 
 #include "stdafx.h"
 #include "mainDlg.h"
-#include "settings.h"
-
-#include "addons/hidapi/hid.c"
-#include "addons/hidapi/Hid.cpp"
 

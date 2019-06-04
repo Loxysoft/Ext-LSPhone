@@ -4,229 +4,360 @@ RTL: 0
 ; utf8
 
 [Call]
-Pangil
+Bellen
 [End Call]
+Ophangen
 [Contacts]
+Contacten
 [Account]
-Akaun
+Account
 [Settings]
-Tetapan
+Instellingen
 [Visit Website]
+Bezoek website
 [Exit]
-Keluar
+Afsluiten
 [Browse...]
+Bladeren...
 [Default]
+Standaard
 [Auto Answer]
+Automatisch beantwoorden
 [Disable Local Account]
+Lokaal account uitzetten
 [OK]
 OK
 [Save]
-Simpan
+Opslaan
 [Cancel]
+Annuleren
 [SIP Server]
+SIP-server
 [SIP Proxy]
+SIP-proxy
 [Domain]
-Domain
+Domein
 [Password]
-Kata Laluan
+Wachtwoord
 [Connecting...]
+Verbinden...
 [Online]
+Bereikbaar
 [Local]
+Lokaal
 [Message]
-Mesej
+Bericht
 [Edit]
-Ubah
+Bewerken
 [Delete]
-Padam
+Verwijderen
 [Add]
-Tambah
+Toevoegen
 [Bad Gateway]
+Foutieve toegangspoort
 [Request Timeout]
+Verzoek time-out
 [Number]
-Nombor
+Nummer
 [Name]
-Nama
+Naam
 [Contact]
+Contact
 [Incoming Call]
+Inkomende oproep
 [Answer]
-Jawab
+Beantwoorden
 [Decline]
+Weigeren
 [Calling]
-Memanggil
+Bellen
 [Connecting]
+Verbinden
 [Connected]
+Verbonden
 [Auto]
+Automatisch
 [Transport]
+Transport
 [Incorrect Password]
+Onjuist wachtwoord
 [Public Address]
+Publiek adres
 [Media Encryption]
+Mediaversleuteling
 [Disabled]
+Uitgeschakeld
 [Optional]
+Optioneel
 [Mandatory]
+Verplicht
 [STUN Server]
+STUN-server
 [Presence Subscription]
+Abonnement
 [Ringing]
+Gaat over
 [Call Ended]
-Panggilan Tamat
+Gesprek beëindigd
 [Declined]
+Afgewezen
 [No address found]
-Tiada alamat dijumpai
+Geen adres gevonden
 [Request Terminated]
+Verzoek beëindigd
 [Away]
-Tiada
+Afwezig
 [Publish Presence]
+Publiceer aanwezigheid
 [Session Progress]
+Sessievoortgang
 [Camera]
-Kamera
+Videobron
 [Video Call]
-Panggilan Video
+Videogesprek
 [Answer with Video]
-Jawab dengan video
+Beantwoorden met video
 [View Log File]
+Logbestand weergeven
 [Microphone]
+Microfoon
 [Speaker]
+Luidspreker
 [Video Codec]
+Videocodec
 [Check for Updates]
+Controleer op updates
 [Daily]
-Harian
+Dagelijks
 [Weekly]
-Mingguan
+Wekelijks
 [Monthly]
+Maandelijks
 [Quarterly]
+Per kwartaal
 [Never]
-Tidak sama sekali
+Nooit
 [Update Available]
+Update beschikbaar
 [Force Codec for Incoming]
+Dwing codec voor inkomend
 [Invalid URI]
+Ongeldige URI
 [Offline]
+Onbereikbaar
 [Single Call Mode]
+Enkele belmodus
 [Local Video]
+Lokale video
 [Call Transfer]
+Oproep doorschakelen
 [final]
+Einde
 [Call transfered successfully, disconnecting call]
+Oproep succesvol doorgschakeld, er wordt opgehangen
 [Hold]
-Menunggu
+Wacht
 [Transfer]
+Doorschakelen
 [Sound Events]
+Geluidseffecten
 [Bitrate]
+Bitsnelheid
 [Login]
+Aanmelding
 [Enable Log File]
+Logbestand inschakelen
 [Duration]
-Durasi
+Duur
 [Info]
+Informatie
 [display password]
+Wachtwoord tonen
 [From]
-Daripada
+Van
 [To]
-Kepada
+Naar
 [Ring Device]
+Beltoon-apparaat
 [Service Unavailable]
+Dienst onbeschikbaar
 [Invalid Request URI]
+Ongeldige URI-aanvraag
 [Busy Here]
-Sedang Sibuk
+Bezet
 [Trying]
-Mencuba
+Proberen
 [Method Not Allowed]
+Methode niet toegestaan
 [Not Found]
-Tidak Dijumpai
+Niet gevonden
 [Always on Top]
+Altijd bovenaan
 [Connect]
+Verbind
 [Last Call]
+Laatste gesprek
 [Close All]
-Tutup Semua
+Alles sluiten
 [Copy]
-Salin
+Kopiëren
 [Select All]
-Simpan Semua
+Alles selecteren
 [Display Name]
-Nama anda
+Weergavenaam
 [Remember Details]
+Onthoud details
 [PIN]
 [No]
-Tidak
+Nee
 [All Calls]
-Semua Panggilan
+Alle gesprekken
 [SIP Header]
+SIP-header
 [Different User]
+Andere gebruiker
 [Different Domain]
+Ander domein
 [Different User or Domain]
+Andere gebruiker of domein
 [Different Remote Domain]
+Ander domein op afstand
 [Deny Incoming]
+Weiger inkomend
 [Allow IP Rewrite]
-test
+IP herschrijven toestaan
 [Directory of Users]
+Gebruikerslijst
 [Call on Remote Hold]
+Wacht op gesprek
 [Call on Local Hold]
+Wacht op gesprek
 [Call on Hold]
+Wacht op gesprek
 [Call is Active]
-Panggilan Aktif
+Gesprek is actief
 [Menu]
+Keuzelijst
 [Edit Account]
+Account wijzigen
 [Add Account...]
+Account toevoegen...
 [Remove Account]
+Account verwijderen
 [Make Active]
+Activeren
 [Are you sure you want to remove?]
+Zeker verwijderen?
 [Call Pickup]
+Gesprek beantwoorden
 [Speaker Level]
+Volume luidspreker
 [Microphone Level]
+Volume microfoon
 [Mute Speaker]
+Luidspreker dempen
 [Mute Microphone]
+Microfoon dempen
 [Balance]
 [Custom INI Path]
 [Contact Us]
 [Please fill out at least the required fields marked with *.]
+Vul minstens velden in gemarkeerd met *.
 [Ask your SIP provider how to configure the account correctly.]
+Vraag uw SIP-aanbieder hoe het account ingesteld moet worden.
 [Time]
+Tijd
 [Phone]
+Toetsenblok
 [Ringtone]
+Belgeluid
 [Username]
+Gebruikersnaam
 [Do you want to update now?]
+Nu bijwerken?
 [Available Codecs]
-Sedia
+Beschikbare Codecs
 [Enabled Codecs]
+Ingeschakeld
 [Logs]
+Gesprekken
 [Random Popup Position]
+Willekeurige plaats
 [Attended Transfer]
+Doorverbinden
 [Launch URL on incoming call]
 [Enable Local Account]
+Lokaal account inschakelen
 [Send Crash Report]
+Vastlopen melden
 [Account Name]
+Accountnaam
 [Invite to Conference]
+Uitnodigen tot groepsgesprek
 [Merge]
+Samenvoegen
 [Separate]
+Afzonderlijk
 [Disconnect]
+Verbinding verbreken
 [DTMF Method]
+DTMF methode
 [Voicemail Number]
+Voicemail nummer
 [Disable Session Timers]
+Sessie timers uitschakelen
 [Microphone Amplification]
+Microfoon versterking
 [Software Level Adjustment]
+Software niveau aanpassing
 [Shortcuts]
+Snelkoppelingen
 [Enable]
+Activeer
 [Label]
+Label
 [Type]
+Type
 [Bottom Position]
+Positie onderaan
 [You need to restart application for the changes to take effect.]
+U moet de applicatie herstarten om de wijzigingen te activeren
 [Handle Media Buttons]
+Beheer media knoppen
 [Bring to Front on Incoming Call]
+Inkomende oproep naar de voorgrond brengen.
 [SIP account]
 [SIP password]
 [Help]
+Help
 [Video Bitrate]
+Video Bitrate
 [Control Button]
+Control knop
 [Do Not Disturb]
+Niet storen
 [Source Port]
+Lokale poort
 [RTP Ports]
+RTP Poorten
 [Unregister the account when the operator is Away]
 [Ask for the sip USER and SECRET everytime]
 [Import]
+Importeren
 [Server]
 [Attendant Transfer]
 [Blind Transfer]
 [Redial]
+Herhalen
 [Backspace]
+Backspace
 [Clear]
+Verwijderen
 [Use Space key to enable selected codec]
+Gebruik de spatiebalk om de geselecteerde codec te activeren
 [Use Delele key to disable selected codec]
+Gebruik de delete-toets om de geselecteerde codec te deactiveren
 [Make Inactive]
 [Conference]
+Conferentie
 []

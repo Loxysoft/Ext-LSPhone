@@ -9,8 +9,6 @@ Ring
 Afslut opkald
 [Contacts]
 Kontakter
-[Phone]
-Tastatur
 [Account]
 Konto
 [Settings]
@@ -19,8 +17,6 @@ Indstillinger
 Besøg hjemmeside
 [Exit]
 Afslut MicroSIP
-[Ringtone]
-Ringelyd
 [Browse...]
 Gennemse...
 [Default]
@@ -39,8 +35,6 @@ Annuller
 SIP-server
 [SIP Proxy]
 SIP-proxy
-[Username]
-Bruger
 [Domain]
 Domæne
 [Password]
@@ -145,14 +139,8 @@ Kvartalsvis
 Aldrig
 [Update Available]
 Opdatering tilgængelig
-[Do you want to update now?]
-Ønsker du at opdatere?
 [Force Codec for Incoming]
 Kræv codec for indgående opkald
-[Available Codecs]
-Til stede
-[Enabled Codecs]
-Aktiveret
 [Invalid URI]
 Ugyldig adresse ("Invalid URI")
 [Offline]
@@ -179,8 +167,6 @@ Bithastighed
 Login
 [Enable Log File]
 Vis logfil
-[Logs]
-Opkald
 [Duration]
 Varighed
 [Info]
@@ -279,10 +265,24 @@ Mute mikrofon
 Udfyld please least de krævede filter, Markeret med *.
 [Ask your SIP provider how to configure the account correctly.]
 Spørg din SIP-udbyder, hvordan du konfigurerer kontoen korrekt.
-[Random Popup Position]
-Tilfældig position af indgående opkald box
 [Time]
 Tid
+[Phone]
+Tastatur
+[Ringtone]
+Ringelyd
+[Username]
+Bruger
+[Do you want to update now?]
+Ønsker du at opdatere?
+[Available Codecs]
+Til stede
+[Enabled Codecs]
+Aktiveret
+[Logs]
+Opkald
+[Random Popup Position]
+Tilfældig position af indgående opkald box
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

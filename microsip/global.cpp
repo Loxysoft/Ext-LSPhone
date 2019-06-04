@@ -23,6 +23,7 @@
 #include "utf.h"
 #include "langpack.h"
 #include <afxinet.h>
+#include "addons.h"
 
 #ifdef UNICODE
 #define CF_TEXT_T CF_UNICODETEXT
@@ -1430,9 +1431,15 @@ void msip_call_answer(pjsua_call_id call_id)
 	}
 }
 
-void msip_call_busy(pjsua_call_id call_id)
+void msip_call_busy(pjsua_call_id call_id, CString reason)
 {
-	pjsua_call_hangup(call_id, 486, NULL, NULL);
+	if (!reason.IsEmpty()) {
+		pj_str_t pj_reason = StrToPjStr(reason);
+		pjsua_call_hangup(call_id, 486, &pj_reason, NULL);
+	}
+	else {
+		pjsua_call_hangup(call_id, 486, NULL, NULL);
+	}
 }
 
 void msip_call_recording_start(call_user_data *user_data, pjsua_call_info *call_info)

@@ -9,8 +9,6 @@ Skambinti
 Baigti skambutį
 [Contacts]
 Kontaktai
-[Phone]
-Skaičių klaviatūra
 [Account]
 Paskyra
 [Settings]
@@ -19,8 +17,6 @@ Nustatymai
 Aplankyti tinklalapį
 [Exit]
 Išeiti
-[Ringtone]
-Skambučio garsas
 [Browse...]
 Ieškoti...
 [Default]
@@ -39,8 +35,6 @@ Atšaukti
 SIP serveris
 [SIP Proxy]
 SIP Proxy
-[Username]
-Vartotojo vardas
 [Domain]
 Domenas
 [Password]
@@ -145,14 +139,8 @@ Kas ketvirtį
 Niekada
 [Update Available]
 Galimas atnaujinimas
-[Do you want to update now?]
-Ar norite atnaujinti dabar?
 [Force Codec for Incoming]
 Brukti kodeką Įeinantiems
-[Available Codecs]
-Galimi kodekai
-[Enabled Codecs]
-Įgalinti kodekai
 [Invalid URI]
 Klaidingas URI
 [Offline]
@@ -179,8 +167,6 @@ Bitrate
 Prisijungimas
 [Enable Log File]
 Įgalinti įrašų failą
-[Logs]
-Įrašai
 [Duration]
 Trukmė
 [Info]
@@ -243,6 +229,7 @@ Leisti IP perrašymą
 [Directory of Users]
 Vartotojų katalogas
 [Call on Remote Hold]
+Skambutis nuotoliniame sulaikyme
 [Call on Local Hold]
 Skambutis pristabdytas
 [Call on Hold]
@@ -262,6 +249,7 @@ Aktyvuoti
 [Are you sure you want to remove?]
 Ar tikrai norite pašalinti?
 [Call Pickup]
+Priimti skambutį
 [Speaker Level]
 Garsiakalbio lygis
 [Microphone Level]
@@ -277,10 +265,24 @@ Užtildyti mikrofoną
 Prašom užpildyti bent privalomus laukelius pažymėtus *.
 [Ask your SIP provider how to configure the account correctly.]
 Kaip teisingai sukonfiigūruoti paskyrą klauskite savo SIP tiekėjo.
-[Random Popup Position]
-Atsitiktinė pranešimo vieta
 [Time]
 Laikas
+[Phone]
+Skaičių klaviatūra
+[Ringtone]
+Skambučio garsas
+[Username]
+Vartotojo vardas
+[Do you want to update now?]
+Ar norite atnaujinti dabar?
+[Available Codecs]
+Galimi kodekai
+[Enabled Codecs]
+Įgalinti kodekai
+[Logs]
+Įrašai
+[Random Popup Position]
+Atsitiktinė pranešimo vieta
 [Attended Transfer]
 Atliktas peradresavimas
 [Launch URL on incoming call]
@@ -317,11 +319,13 @@ Nuorodos
 [Type]
 Tipas
 [Bottom Position]
+Apačios vieta
 [You need to restart application for the changes to take effect.]
 Kad pasikeitimai įsigaliotų reikia perkrauti aplikaciją
 [Handle Media Buttons]
 Valdyti Media mygtukus
 [Bring to Front on Incoming Call]
+Iškelti į priekį su įeinančiu skambučiu
 [SIP account]
 [SIP password]
 [Help]
@@ -346,6 +350,7 @@ Importuoti
 [Redial]
 Perrinkti
 [Backspace]
+Atgal
 [Clear]
 Išvalyti
 [Use Space key to enable selected codec]

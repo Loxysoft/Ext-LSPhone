@@ -8,19 +8,15 @@ RTL: 0
 [End Call]
 Дуудлагыг дуусгах
 [Contacts]
-Утасны дэвтэр
-[Phone]
-Товчлуур
+Утасны жагсаалт
 [Account]
-Хэрэглэгчийн мэдээлэл
+Хэрэглэгчийн бүртгэл
 [Settings]
 Тохиргоо
 [Visit Website]
 Вэбсайт руу орох
 [Exit]
 Гарах
-[Ringtone]
-Дуудах ая
 [Browse...]
 Файл сонгох...
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP сервер
 [SIP Proxy]
 SIP прокси
-[Username]
-Нэвтрэх нэр
 [Domain]
 Домэйн
 [Password]
@@ -68,7 +62,7 @@ SIP прокси
 [Name]
 Нэр
 [Contact]
-Контакт
+Утасны дугаар
 [Incoming Call]
 Дуудлага ирлээ
 [Answer]
@@ -100,6 +94,7 @@ SIP прокси
 [STUN Server]
 STUN сервер
 [Presence Subscription]
+Захиалга хийх боломжтой
 [Ringing]
 Дуудаж байна
 [Call Ended]
@@ -144,13 +139,8 @@ STUN сервер
 Үгүй
 [Update Available]
 Шинэ хувилбар гарсан
-[Do you want to update now?]
-Програмыг одоо шинэчлэх үү?
 [Force Codec for Incoming]
-[Available Codecs]
-Боломжтой кодек
-[Enabled Codecs]
-Идэвхижүүлсэн кодек
+Орох дуудлагын кодек
 [Invalid URI]
 URI буруу
 [Offline]
@@ -172,13 +162,11 @@ URI буруу
 [Sound Events]
 Дуут дохио өгөх
 [Bitrate]
-Bitrate
+Битийн хурд /rate/
 [Login]
 Нэвтрэх
 [Enable Log File]
 Лог файлыг идэвхижүүлэх
-[Logs]
-Бүртгэл
 [Duration]
 Хугацаа
 [Info]
@@ -204,7 +192,7 @@ Request URI буруу
 [Not Found]
 Олдсонгүй
 [Always on Top]
-Үргэлж дэлгэцэнд харуулна
+Байнга дэлгэцэнд харуулна
 [Connect]
 Холбогдох
 [Last Call]
@@ -237,17 +225,17 @@ SIP Header
 [Deny Incoming]
 Ирэх дуудлагыг хаах
 [Allow IP Rewrite]
-IP rewrite идэвхижүүлэх
+IP хаяг дарж бичихийг зөвшөөрөх
 [Directory of Users]
 Хэрэглэгчийн жагсаалт
 [Call on Remote Hold]
-Дуудлагыг remote хүлээлгэсэн
+Дуудлагыг нөгөө талд хүлээлгэсэн
 [Call on Local Hold]
 Дуудлагыг дотоодод хүлээлгэсэн
 [Call on Hold]
 Дуудлага хүлээгдсэн
 [Call is Active]
-Дуудлага хийгдэж байна
+Дуудлага идэвхтэй
 [Menu]
 Цэс
 [Edit Account]
@@ -276,11 +264,25 @@ IP rewrite идэвхижүүлэх
 [Please fill out at least the required fields marked with *.]
 * тэмдгээр тэмдэглэгдсэн хэсгүүдийг заавал бөглөнө үү.
 [Ask your SIP provider how to configure the account correctly.]
-Та үйлчилгээ үзүүлэгчээс лавлана уу
-[Random Popup Position]
-Хаана ч нээгдэх боломжтой
+Та хэрхэн тохиргоо хийхээ SIP үйлчилгээ үзүүлэгчээс лавлана уу
 [Time]
 Хугацаа
+[Phone]
+Товчлуур
+[Ringtone]
+Дуудах ая
+[Username]
+Нэвтрэх нэр
+[Do you want to update now?]
+Програмыг одоо шинэчлэх үү?
+[Available Codecs]
+Боломжит кодек
+[Enabled Codecs]
+Идэвхижүүлсэн кодек
+[Logs]
+Бүртгэл
+[Random Popup Position]
+Хаана ч нээгдэх боломжтой
 [Attended Transfer]
 Оролцоотой шилжүүлэг
 [Launch URL on incoming call]
@@ -289,7 +291,7 @@ IP rewrite идэвхижүүлэх
 [Send Crash Report]
 Алдааны мэдээллийг илгээх
 [Account Name]
-Нэр
+Хэрэглэгчийн нэр
 [Invite to Conference]
 Телефон хуралд урих
 [Merge]
@@ -333,7 +335,7 @@ DTMF төрөл
 [Control Button]
 Удирдлагын товчлуур
 [Do Not Disturb]
-Завгүй
+Дуудлага хүлээн авахгүй
 [Source Port]
 Source порт
 [RTP Ports]

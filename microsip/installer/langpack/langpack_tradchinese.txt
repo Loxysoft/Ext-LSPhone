@@ -9,8 +9,6 @@ RTL: 0
 結束
 [Contacts]
 聯絡人
-[Phone]
-數字鍵
 [Account]
 帳號
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 拜訪網站
 [Exit]
 離開
-[Ringtone]
-自訂鈴聲
 [Browse...]
 瀏覽
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP 主機
 [SIP Proxy]
 SIP 代理
-[Username]
-使用者
 [Domain]
 網域
 [Password]
@@ -145,14 +139,8 @@ STUN 主機
 從不
 [Update Available]
 有可用更新
-[Do you want to update now?]
-您需要更新 嗎?
 [Force Codec for Incoming]
 強制設定來電編碼
-[Available Codecs]
-可用
-[Enabled Codecs]
-開啟
 [Invalid URI]
 無效的 URI
 [Offline]
@@ -179,8 +167,6 @@ STUN 主機
 登入帳號
 [Enable Log File]
 開啟檔案記錄
-[Logs]
-通話記錄
 [Duration]
 期限
 [Info]
@@ -280,10 +266,24 @@ SIP表頭
 請填寫至少必填字段標有*。
 [Ask your SIP provider how to configure the account correctly.]
 問問你的SIP提供商如何正確配置的帳戶。
-[Random Popup Position]
-來電箱的隨機位置
 [Time]
 時間
+[Phone]
+數字鍵
+[Ringtone]
+自訂鈴聲
+[Username]
+使用者
+[Do you want to update now?]
+您需要更新 嗎?
+[Available Codecs]
+可用
+[Enabled Codecs]
+開啟
+[Logs]
+通話記錄
+[Random Popup Position]
+來電箱的隨機位置
 [Attended Transfer]
 座席呼轉
 [Launch URL on incoming call]

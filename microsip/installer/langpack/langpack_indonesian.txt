@@ -9,8 +9,6 @@ Telepon
 Akhiri panggilan
 [Contacts]
 Daftar Kontak
-[Phone]
-Telepon
 [Account]
 Akun
 [Settings]
@@ -19,8 +17,6 @@ Setting
 Kunjungi website
 [Exit]
 Keluar
-[Ringtone]
-Nada Dering
 [Browse...]
 Browse...
 [Default]
@@ -39,8 +35,6 @@ Batal
 SIP Server
 [SIP Proxy]
 SIP Proxy
-[Username]
-Pengguna
 [Domain]
 Domain
 [Password]
@@ -145,14 +139,8 @@ Per-Kuartal
 Jangan Pernah
 [Update Available]
 Update Tersedia
-[Do you want to update now?]
-Anda ingin memperbarui?
 [Force Codec for Incoming]
 Paksa Penyesuaian Codec untuk Panggilan Masuk
-[Available Codecs]
-Codec yang Tersedia
-[Enabled Codecs]
-Codec yang Aktif
 [Invalid URI]
 URI Tidak berlaku
 [Offline]
@@ -179,8 +167,6 @@ Bitrate
 Masuk
 [Enable Log File]
 Aktifkan Log File
-[Logs]
-Histori Panggilan
 [Duration]
 Durasi
 [Info]
@@ -279,10 +265,24 @@ Matikan Microphone
 Harap diisi setidaknya pada kolom yang diberi tanda *.
 [Ask your SIP provider how to configure the account correctly.]
 Silahkan tanyakan pada penyedia layanan SIP ada, cara konfigurasi akun dengan benar.
-[Random Popup Position]
-Posisikan Popup secara acak
 [Time]
 Waktu
+[Phone]
+Telepon
+[Ringtone]
+Nada Dering
+[Username]
+Pengguna
+[Do you want to update now?]
+Anda ingin memperbarui?
+[Available Codecs]
+Codec yang Tersedia
+[Enabled Codecs]
+Codec yang Aktif
+[Logs]
+Histori Panggilan
+[Random Popup Position]
+Posisikan Popup secara acak
 [Attended Transfer]
 Transfer Panggilan
 [Launch URL on incoming call]

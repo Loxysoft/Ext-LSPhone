@@ -8,7 +8,6 @@ Bel
 [End Call]
 [Contacts]
 Kontakte
-[Phone]
 [Account]
 Rekening
 [Settings]
@@ -16,8 +15,6 @@ Stellings
 [Visit Website]
 Besoek WebWerf
 [Exit]
-[Ringtone]
-Lui Geluid
 [Browse...]
 [Default]
 [Auto Answer]
@@ -30,8 +27,6 @@ Reg
 Kanseleer
 [SIP Server]
 [SIP Proxy]
-[Username]
-Gebruiker
 [Domain]
 [Password]
 Wagwoord
@@ -109,11 +104,7 @@ Kwartaaliks
 Nooit
 [Update Available]
 New Weergawe beskikbaar
-[Do you want to update now?]
 [Force Codec for Incoming]
-[Available Codecs]
-Beskikbaar
-[Enabled Codecs]
 [Invalid URI]
 [Offline]
 Van Lyn Af
@@ -130,8 +121,6 @@ Oproep oorplasing suksesvol, oproep afgeskakel
 [Bitrate]
 [Login]
 [Enable Log File]
-[Logs]
-Oproepe
 [Duration]
 [Info]
 [display password]
@@ -203,8 +192,19 @@ Oproep optel
 [Please fill out at least the required fields marked with *.]
 [Ask your SIP provider how to configure the account correctly.]
 Vra jou SIP verskaffer hoe om die rekening reg op te stel.
-[Random Popup Position]
 [Time]
+[Phone]
+[Ringtone]
+Lui Geluid
+[Username]
+Gebruiker
+[Do you want to update now?]
+[Available Codecs]
+Beskikbaar
+[Enabled Codecs]
+[Logs]
+Oproepe
+[Random Popup Position]
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

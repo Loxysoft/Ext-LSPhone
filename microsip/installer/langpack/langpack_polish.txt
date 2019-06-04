@@ -9,8 +9,6 @@ Zadzwoń
 Zakończ
 [Contacts]
 Kontakty
-[Phone]
-Klawiatura
 [Account]
 Konto
 [Settings]
@@ -19,8 +17,6 @@ Ustawienia
 Odwiedź stronę internetową
 [Exit]
 Wyjście
-[Ringtone]
-Dźwięki dzwonka
 [Browse...]
 Przeglądaj...
 [Default]
@@ -39,8 +35,6 @@ Anuluj
 Serwer SIP
 [SIP Proxy]
 SIP Proxy
-[Username]
-Login użytkownika
 [Domain]
 Domena
 [Password]
@@ -145,14 +139,8 @@ Co kwartał
 Nigdy
 [Update Available]
 Dostępna aktualizacja
-[Do you want to update now?]
-Czy chcesz uaktualnić?
 [Force Codec for Incoming]
 Wymuś kodek dla rozmów przychodzących
-[Available Codecs]
-Dostępne kodeki
-[Enabled Codecs]
-Włączone
 [Invalid URI]
 Nieprawidłowy URI
 [Offline]
@@ -179,8 +167,6 @@ Bitrate
 Login
 [Enable Log File]
 Włącz logowanie do pliku
-[Logs]
-Połączenia
 [Duration]
 Czas trwania
 [Info]
@@ -279,10 +265,24 @@ Wycisz mikrofon
 Proszę wypełnić przynajmniej pola oznaczone *.
 [Ask your SIP provider how to configure the account correctly.]
 Spytaj swojego operatora SIP jak prawidłowo skonfigurować konto.
-[Random Popup Position]
-Losowa pozycja odpowiedzi
 [Time]
 Czas
+[Phone]
+Klawiatura
+[Ringtone]
+Dźwięki dzwonka
+[Username]
+Login użytkownika
+[Do you want to update now?]
+Czy chcesz uaktualnić?
+[Available Codecs]
+Dostępne kodeki
+[Enabled Codecs]
+Włączone
+[Logs]
+Połączenia
+[Random Popup Position]
+Losowa pozycja odpowiedzi
 [Attended Transfer]
 Przekierowanie
 [Launch URL on incoming call]

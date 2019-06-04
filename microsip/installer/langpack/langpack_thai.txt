@@ -9,8 +9,6 @@ RTL: 0
 วางสาย
 [Contacts]
 ผู้ติดต่อ
-[Phone]
-ปุ่มโทร
 [Account]
 บัญชี
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 เยี่ยมชมเว็บไซต์
 [Exit]
 ออก
-[Ringtone]
-เสียงเรียกเข้า
 [Browse...]
 เลือกไฟล์
 [Default]
@@ -36,8 +32,6 @@ RTL: 0
 ยกเลิก
 [SIP Server]
 [SIP Proxy]
-[Username]
-ผู้ใช้
 [Domain]
 โดเมน
 [Password]
@@ -130,13 +124,7 @@ RTL: 0
 [Never]
 ไม่เคย
 [Update Available]
-[Do you want to update now?]
-คุณต้องการอัพเดท หรือไม่?
 [Force Codec for Incoming]
-[Available Codecs]
-ว่าง
-[Enabled Codecs]
-ใช้งาน
 [Invalid URI]
 [Offline]
 ออฟไลน์
@@ -160,8 +148,6 @@ RTL: 0
 เข้าระบบ
 [Enable Log File]
 เปิดล็อคไฟล์
-[Logs]
-เรียก
 [Duration]
 ระหว่าง
 [Info]
@@ -252,8 +238,22 @@ RTL: 0
 ติดต่อเรา
 [Please fill out at least the required fields marked with *.]
 [Ask your SIP provider how to configure the account correctly.]
-[Random Popup Position]
 [Time]
+[Phone]
+ปุ่มโทร
+[Ringtone]
+เสียงเรียกเข้า
+[Username]
+ผู้ใช้
+[Do you want to update now?]
+คุณต้องการอัพเดท หรือไม่?
+[Available Codecs]
+ว่าง
+[Enabled Codecs]
+ใช้งาน
+[Logs]
+เรียก
+[Random Popup Position]
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

@@ -8,14 +8,11 @@ Deia
 [End Call]
 [Contacts]
 Kontaktuak
-[Phone]
-Telefonoa
 [Account]
 Kontua
 [Settings]
 [Visit Website]
 [Exit]
-[Ringtone]
 [Browse...]
 Bilatu...
 [Default]
@@ -28,8 +25,6 @@ Gorde
 Ezeztatu
 [SIP Server]
 [SIP Proxy]
-[Username]
-Erabiltzaile-izena
 [Domain]
 [Password]
 Pasahitza
@@ -106,10 +101,7 @@ Hilero
 [Quarterly]
 [Never]
 [Update Available]
-[Do you want to update now?]
 [Force Codec for Incoming]
-[Available Codecs]
-[Enabled Codecs]
 [Invalid URI]
 [Offline]
 [Single Call Mode]
@@ -125,7 +117,6 @@ Dei-Transferentzia
 Bitrate
 [Login]
 [Enable Log File]
-[Logs]
 [Duration]
 [Info]
 [display password]
@@ -190,9 +181,18 @@ Segurua ezabatu nahi duzula?
 [Please fill out at least the required fields marked with *.]
 [Ask your SIP provider how to configure the account correctly.]
 Galde iezaiozu SIP-a bere hornitzaileari kontua zuzenki nola itxuratu.
-[Random Popup Position]
 [Time]
 Denbora
+[Phone]
+Telefonoa
+[Ringtone]
+[Username]
+Erabiltzaile-izena
+[Do you want to update now?]
+[Available Codecs]
+[Enabled Codecs]
+[Logs]
+[Random Popup Position]
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

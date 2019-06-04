@@ -9,8 +9,6 @@ Helista
 Lõpeta
 [Contacts]
 Kontaktid
-[Phone]
-Numbrilaud
 [Account]
 Konto
 [Settings]
@@ -19,8 +17,6 @@ Seaded
 Külasta veebi
 [Exit]
 Välju
-[Ringtone]
-Helina fail
 [Browse...]
 Sirvi...
 [Default]
@@ -39,8 +35,6 @@ Loobu
 SIP server
 [SIP Proxy]
 SIP proksi
-[Username]
-Kasutajanimi
 [Domain]
 Domeen
 [Password]
@@ -145,14 +139,8 @@ Kvartaalselt
 Iialgi
 [Update Available]
 Uuendus on saadaval
-[Do you want to update now?]
-Kas soovid praegu uuendada?
 [Force Codec for Incoming]
 Sissetulevale jõusta koodek
-[Available Codecs]
-Saadaval koodekid
-[Enabled Codecs]
-Võimaldatud
 [Invalid URI]
 Kehtetu URI
 [Offline]
@@ -179,8 +167,6 @@ Bitikiirus
 Logi sisse
 [Enable Log File]
 Võimaldada logimine
-[Logs]
-Kõned
 [Duration]
 Kestvus
 [Info]
@@ -279,10 +265,24 @@ Vaigista mikrofon
 Palun täida vähemalt * märgitud nõutavad väljad
 [Ask your SIP provider how to configure the account correctly.]
 Päri SIP-pakkujalt, kuidas õieti kontot konfigureerida.
-[Random Popup Position]
-Vastusekasti suvaline asukoht
 [Time]
 Aeg
+[Phone]
+Numbrilaud
+[Ringtone]
+Helina fail
+[Username]
+Kasutajanimi
+[Do you want to update now?]
+Kas soovid praegu uuendada?
+[Available Codecs]
+Saadaval koodekid
+[Enabled Codecs]
+Võimaldatud
+[Logs]
+Kõned
+[Random Popup Position]
+Vastusekasti suvaline asukoht
 [Attended Transfer]
 Kaasnev edastus
 [Launch URL on incoming call]

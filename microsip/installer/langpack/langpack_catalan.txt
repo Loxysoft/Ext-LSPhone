@@ -9,8 +9,6 @@ Trucada
 Finalitzar trucada
 [Contacts]
 Contactes
-[Phone]
-Marcació
 [Account]
 Compte
 [Settings]
@@ -19,8 +17,6 @@ Opcions
 Visita la web
 [Exit]
 Surt
-[Ringtone]
-So de trucada
 [Browse...]
 Examinar...
 [Default]
@@ -39,8 +35,6 @@ Cancel·la
 Servidor SIP
 [SIP Proxy]
 Proxy SIP
-[Username]
-Usuari
 [Domain]
 Domini
 [Password]
@@ -72,7 +66,7 @@ Contacte
 [Incoming Call]
 Trucada entrant
 [Answer]
-Contestar
+Respondre
 [Decline]
 Rebutja
 [Calling]
@@ -141,14 +135,8 @@ Mensual
 Mai
 [Update Available]
 Actualització disponible
-[Do you want to update now?]
-Vols actualitzar?
 [Force Codec for Incoming]
 Forçar codec d'entrada
-[Available Codecs]
-Disponible
-[Enabled Codecs]
-Codecs habilitats
 [Invalid URI]
 URI invàlida
 [Offline]
@@ -173,8 +161,6 @@ Taxa de bits
 [Login]
 [Enable Log File]
 Habilitar fitxer de registre
-[Logs]
-Trucades
 [Duration]
 Duració
 [Info]
@@ -269,9 +255,23 @@ Silenciar micròfon
 Ompliu com a mínim els camps obligatoris marcats amb *.
 [Ask your SIP provider how to configure the account correctly.]
 Pregunteu al vostre proveïdor SIP com configurar correctament el compte.
-[Random Popup Position]
 [Time]
 Temps
+[Phone]
+Marcació
+[Ringtone]
+So de trucada
+[Username]
+Usuari
+[Do you want to update now?]
+Vols actualitzar?
+[Available Codecs]
+Codecs disponibles
+[Enabled Codecs]
+Codecs habilitats
+[Logs]
+Trucades
+[Random Popup Position]
 [Attended Transfer]
 Transferència assistida
 [Launch URL on incoming call]

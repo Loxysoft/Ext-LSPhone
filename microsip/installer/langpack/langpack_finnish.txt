@@ -9,8 +9,6 @@ Soita
 Katkaise puhelu
 [Contacts]
 Yhteystiedot
-[Phone]
-Näppäimistö
 [Account]
 Käyttäjätili
 [Settings]
@@ -19,8 +17,6 @@ Asetukset
 Verkkosivusto
 [Exit]
 Lopeta
-[Ringtone]
-Soittoääni
 [Browse...]
 Selaa...
 [Default]
@@ -39,8 +35,6 @@ Peruuta
 SIP-palvelin
 [SIP Proxy]
 SIP-välityspalvelin
-[Username]
-Käyttäjätunnus
 [Domain]
 Palvelin
 [Password]
@@ -145,14 +139,8 @@ Kuukauden välein
 Ei koskaan
 [Update Available]
 Päivitys saatavilla
-[Do you want to update now?]
-Haluatko päivittää ohjelman?
 [Force Codec for Incoming]
 Pakota pakkaus saapuviin
-[Available Codecs]
-Saatavilla
-[Enabled Codecs]
-Käytössä
 [Invalid URI]
 Virheellinen URI
 [Offline]
@@ -179,8 +167,6 @@ Bittitaajuus
 Käyttäjänimi
 [Enable Log File]
 Lokiin kirjaaminen käytössä
-[Logs]
-Puhelut
 [Duration]
 Kesto
 [Info]
@@ -279,10 +265,24 @@ Mykistä mikrofoni
 Täytäthän ainakin tähdellä (*) merkityt kentät.
 [Ask your SIP provider how to configure the account correctly.]
 Kysy tarvittaessa neuvoa SIP-palveluntarjoajaltasi.
-[Random Popup Position]
-Satunnainen vastausikkunan sijainti
 [Time]
 Aika
+[Phone]
+Näppäimistö
+[Ringtone]
+Soittoääni
+[Username]
+Käyttäjätunnus
+[Do you want to update now?]
+Haluatko päivittää ohjelman?
+[Available Codecs]
+Saatavilla
+[Enabled Codecs]
+Käytössä
+[Logs]
+Puhelut
+[Random Popup Position]
+Satunnainen vastausikkunan sijainti
 [Attended Transfer]
 Soiton siirto
 [Launch URL on incoming call]

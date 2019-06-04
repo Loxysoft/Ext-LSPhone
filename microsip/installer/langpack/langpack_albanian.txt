@@ -9,8 +9,6 @@ Thirrja
 Mbaro thirrjen
 [Contacts]
 Kontaktet
-[Phone]
-Numratori
 [Account]
 Llogaria
 [Settings]
@@ -19,8 +17,6 @@ Konfigurimet
 Vizito webfaqen
 [Exit]
 Dil
-[Ringtone]
-Zëri cingërrues
 [Browse...]
 Shfleto...
 [Default]
@@ -39,8 +35,6 @@ Anulo
 SIP serveri
 [SIP Proxy]
 SIP proxy
-[Username]
-Përdoruesi
 [Domain]
 Domeni
 [Password]
@@ -145,13 +139,7 @@ Tremujor
 Asnjëherë
 [Update Available]
 Përditësim i mundshëm
-[Do you want to update now?]
-A doni t'a përditësoni?
 [Force Codec for Incoming]
-[Available Codecs]
-Në dispozicion
-[Enabled Codecs]
-I lëshuar
 [Invalid URI]
 URI jokorrekt
 [Offline]
@@ -178,8 +166,6 @@ Bitrate
 Hyr
 [Enable Log File]
 Lësho log fajllin
-[Logs]
-Thirrjet
 [Duration]
 Kohëzgjatja
 [Info]
@@ -251,8 +237,22 @@ Kujto detajet
 [Contact Us]
 [Please fill out at least the required fields marked with *.]
 [Ask your SIP provider how to configure the account correctly.]
-[Random Popup Position]
 [Time]
+[Phone]
+Numratori
+[Ringtone]
+Zëri cingërrues
+[Username]
+Përdoruesi
+[Do you want to update now?]
+A doni t'a përditësoni?
+[Available Codecs]
+Në dispozicion
+[Enabled Codecs]
+I lëshuar
+[Logs]
+Thirrjet
+[Random Popup Position]
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

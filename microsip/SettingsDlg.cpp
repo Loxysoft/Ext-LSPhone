@@ -24,6 +24,21 @@
 #include "langpack.h"
 #include <afxshellmanager.h>
 
+static CString defaultActionItems[] = {
+_T(""),
+_T("call"),
+#ifdef _GLOBAL_VIDEO
+_T("video"),
+#endif
+};
+static CString defaultActionValues[] = {
+_T("Default"),
+_T("Call"),
+#ifdef _GLOBAL_VIDEO
+_T("Video Call"),
+#endif
+};
+
 SettingsDlg::SettingsDlg(CWnd* pParent /*=NULL*/)
 	: CDialog(SettingsDlg::IDD, pParent)
 {
@@ -202,6 +217,20 @@ BOOL SettingsDlg::OnInitDialog()
 		}
 	}
 
+	combobox= (CComboBox*)GetDlgItem(IDC_SETTINGS_DEFAULT_ACTION);
+	int n = sizeof(defaultActionItems)/sizeof(defaultActionItems[0]);
+	bool found = false;
+	for (int i=0;i<n;i++) {
+		combobox->AddString(defaultActionValues[i]);
+		if (accountSettings.defaultAction==defaultActionItems[i]) {
+			combobox->SetCurSel(i);
+			found = true;
+		}
+	}
+	if (!found)  {
+		combobox->SetCurSel(0);
+	}
+
 	((CButton*)GetDlgItem(IDC_SETTINGS_MEDIA_BUTTONS))->SetCheck(accountSettings.enableMediaButtons);
 	((CButton*)GetDlgItem(IDC_SETTINGS_LOCAL_DTMF))->SetCheck(accountSettings.localDTMF);
 	((CButton*)GetDlgItem(IDC_SETTINGS_ENABLE_LOG))->SetCheck(accountSettings.enableLog);
@@ -367,6 +396,9 @@ LRESULT SettingsDlg::OnUpdateSettings(WPARAM wParam, LPARAM lParam)
 
 	combobox = (CComboBox*)GetDlgItem(IDC_SETTINGS_DENY_INCOMING);
 	accountSettings.denyIncoming = denyIncomingValues.GetAt(combobox->GetCurSel());
+
+	combobox= (CComboBox*)GetDlgItem(IDC_SETTINGS_DEFAULT_ACTION);
+	accountSettings.defaultAction = defaultActionItems[combobox->GetCurSel()];
 
 	accountSettings.enableMediaButtons = ((CButton*)GetDlgItem(IDC_SETTINGS_MEDIA_BUTTONS))->GetCheck();
 	accountSettings.localDTMF = ((CButton*)GetDlgItem(IDC_SETTINGS_LOCAL_DTMF))->GetCheck();

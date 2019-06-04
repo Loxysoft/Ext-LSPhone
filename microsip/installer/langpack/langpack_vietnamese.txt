@@ -7,14 +7,12 @@ RTL: 0
 Gọi
 [End Call]
 [Contacts]
-[Phone]
 [Account]
 Tài khoản
 [Settings]
 Cài đặt
 [Visit Website]
 [Exit]
-[Ringtone]
 [Browse...]
 Chọn ...
 [Default]
@@ -28,7 +26,6 @@ Lưu
 [Cancel]
 [SIP Server]
 [SIP Proxy]
-[Username]
 [Domain]
 [Password]
 [Connecting...]
@@ -96,11 +93,7 @@ Hàng tuần
 [Quarterly]
 [Never]
 [Update Available]
-[Do you want to update now?]
 [Force Codec for Incoming]
-[Available Codecs]
-Đang sẵn sàng
-[Enabled Codecs]
 [Invalid URI]
 [Offline]
 [Single Call Mode]
@@ -114,7 +107,6 @@ Hàng tuần
 [Bitrate]
 [Login]
 [Enable Log File]
-[Logs]
 [Duration]
 [Info]
 [display password]
@@ -182,8 +174,16 @@ Bạn có chắc muốn xóa?
 [Please fill out at least the required fields marked with *.]
 [Ask your SIP provider how to configure the account correctly.]
 Hỏi nhà cung cấp dịch vụ của bạn để cấu hình tài khoản một các chính xác
-[Random Popup Position]
 [Time]
+[Phone]
+[Ringtone]
+[Username]
+[Do you want to update now?]
+[Available Codecs]
+Đang sẵn sàng
+[Enabled Codecs]
+[Logs]
+[Random Popup Position]
 [Attended Transfer]
 Chuyển cuộc gọi
 [Launch URL on incoming call]

@@ -134,6 +134,7 @@ struct AccountSettings {
 	CString autoAnswer;
 	CString denyIncoming;
 	CString usersDirectory;
+	CString defaultAction;
 	bool enableMediaButtons;
 	bool localDTMF;
 	bool enableLocalAccount;

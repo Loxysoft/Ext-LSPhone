@@ -9,8 +9,6 @@ RTL: 0
 切断
 [Contacts]
 コンタクト
-[Phone]
-キーパッド
 [Account]
 アカウント
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 サイトへ
 [Exit]
 終了
-[Ringtone]
-呼出音
 [Browse...]
 参照...
 [Default]
@@ -39,8 +35,6 @@ OK
 SIP サーバ
 [SIP Proxy]
 SIP プロキシ
-[Username]
-ユーザ名
 [Domain]
 ドメイン
 [Password]
@@ -145,14 +139,8 @@ STUN サーバ
 しない
 [Update Available]
 更新があります
-[Do you want to update now?]
-今すぐ更新しますか?
 [Force Codec for Incoming]
 コーデックを強制使用する
-[Available Codecs]
-利用可能
-[Enabled Codecs]
-有効
 [Invalid URI]
 URIが不正です
 [Offline]
@@ -179,8 +167,6 @@ URIが不正です
 ログイン
 [Enable Log File]
 ログを保存する
-[Logs]
-履歴
 [Duration]
 通話時間
 [Info]
@@ -280,10 +266,24 @@ IP上書きを許可
 必須(*)のマークのついている部分を記入してください。
 [Ask your SIP provider how to configure the account correctly.]
 正しくアカウントを設定する方法をSIPプロバイダーに確認して下さい。
-[Random Popup Position]
-ポップアップのランダムな位置
 [Time]
 時間
+[Phone]
+キーパッド
+[Ringtone]
+呼出音
+[Username]
+ユーザ名
+[Do you want to update now?]
+今すぐ更新しますか?
+[Available Codecs]
+利用可能
+[Enabled Codecs]
+有効
+[Logs]
+履歴
+[Random Popup Position]
+ポップアップのランダムな位置
 [Attended Transfer]
 仲介転送
 [Launch URL on incoming call]

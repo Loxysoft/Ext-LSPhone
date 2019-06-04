@@ -74,15 +74,17 @@ public:
 	void UpdateTabIcon(MessagesContact *messagesContact, int tabIndex=-1, pjsua_call_info *call_info=NULL, call_user_data *user_data = NULL);
 	void CallAction(int action, CString number);
 	void Merge(pjsua_call_id call_id);
+	void Separate(pjsua_call_id call_id);
 
 	CClosableTabCtrl* tab;
 	MessagesContact* lastCall;
 
 	HICON m_hIconDropDown;
 	HICON m_hIconHold;
+	HICON m_hIconResume;
 
 private:
-	void UpdateCallButton(BOOL active = FALSE, pjsua_call_info *call_info = NULL);
+	void UpdateCallButton(BOOL active = FALSE, pjsua_call_info *call_info = NULL, call_user_data *user_data = NULL);
 	BOOL CloseTab(int i, BOOL safe = FALSE);
 
 	CMenu menuTransfer;
@@ -126,6 +128,8 @@ public:
 	afx_msg void OnAttendedTransfer(UINT nID);
 	afx_msg void OnConference();
 	afx_msg void OnMerge(UINT nID);
+	afx_msg void OnMergeAll();
 	afx_msg void OnSeparate();
+	afx_msg void OnSeparateAll();
 	afx_msg void OnDisconnect();
 };

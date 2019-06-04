@@ -273,6 +273,10 @@ void AccountSettings::Init()
 	GetPrivateProfileString(section, _T("usersDirectory"), _T(_GLOBAL_USERS_DIRECTORY_VALUE), ptr, 256, iniFile);
 	usersDirectory.ReleaseBuffer();
 
+	ptr = defaultAction.GetBuffer(255);
+	GetPrivateProfileString(section, _T("defaultAction"), NULL, ptr, 256, iniFile);
+	defaultAction.ReleaseBuffer();
+
 	ptr = dnsSrvNs.GetBuffer(255);
 	GetPrivateProfileString(section, _T("dnsSrvNs"), NULL, ptr, 256, iniFile);
 	dnsSrvNs.ReleaseBuffer();
@@ -840,6 +844,8 @@ void AccountSettings::SettingsSave()
 	WritePrivateProfileString(section, _T("denyIncoming"), denyIncoming, iniFile);
 
 	WritePrivateProfileString(section, _T("usersDirectory"), usersDirectory, iniFile);
+
+	WritePrivateProfileString(section, _T("defaultAction"), defaultAction, iniFile);
 
 	WritePrivateProfileString(section, _T("dnsSrvNs"), dnsSrvNs, iniFile);
 	WritePrivateProfileString(section, _T("dnsSrv"), dnsSrv ? _T("1") : _T("0"), iniFile);

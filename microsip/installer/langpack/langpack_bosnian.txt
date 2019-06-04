@@ -8,14 +8,12 @@ Poziv
 [End Call]
 [Contacts]
 Kontakti
-[Phone]
 [Account]
 Nalog
 [Settings]
 [Visit Website]
 Posetite vebsajt
 [Exit]
-[Ringtone]
 [Browse...]
 Pretražite...
 [Default]
@@ -31,8 +29,6 @@ Otkaži
 SIP Server
 [SIP Proxy]
 SIP Proxy
-[Username]
-Korisnik
 [Domain]
 [Password]
 Lozinka
@@ -129,11 +125,7 @@ Kvartalno
 Nikada
 [Update Available]
 Ažuriranje Dostupno
-[Do you want to update now?]
 [Force Codec for Incoming]
-[Available Codecs]
-Dostupni Kodeci
-[Enabled Codecs]
 [Invalid URI]
 [Offline]
 Offline
@@ -153,8 +145,6 @@ Zvučni Događaji
 Brzina Prenosa
 [Login]
 [Enable Log File]
-[Logs]
-Pozivi
 [Duration]
 [Info]
 [display password]
@@ -236,10 +226,20 @@ Isključi Mikrofon
 Molimo vas Ispunite barem obavezna polja sa oznakom *.
 [Ask your SIP provider how to configure the account correctly.]
 Pitajte svog SIP provajdera kako pravilno konfigurirati nalog.
-[Random Popup Position]
-Slučajan Položaj
 [Time]
 Vreme
+[Phone]
+[Ringtone]
+[Username]
+Korisnik
+[Do you want to update now?]
+[Available Codecs]
+Dostupni Kodeci
+[Enabled Codecs]
+[Logs]
+Pozivi
+[Random Popup Position]
+Slučajan Položaj
 [Attended Transfer]
 Prisutan Transfer
 [Launch URL on incoming call]

@@ -9,8 +9,6 @@ Ring
 Koppla ned
 [Contacts]
 Kontakter
-[Phone]
-Knappsats
 [Account]
 Konto
 [Settings]
@@ -19,8 +17,6 @@ Inställningar
 Besök hemsida
 [Exit]
 Avsluta
-[Ringtone]
-Ringsignal
 [Browse...]
 Bläddra
 [Default]
@@ -39,8 +35,6 @@ Avbryt
 SIP-server
 [SIP Proxy]
 SIP-proxy
-[Username]
-Användarnamn
 [Domain]
 Domän
 [Password]
@@ -145,14 +139,8 @@ Kvartalsvis
 Aldrig
 [Update Available]
 Det finns en uppdatering
-[Do you want to update now?]
-Vill du uppdatera nu?
 [Force Codec for Incoming]
 Tvinga codec för inkommande
-[Available Codecs]
-Tillgängliga codecs
-[Enabled Codecs]
-Aktiverade
 [Invalid URI]
 Ogiltig URI
 [Offline]
@@ -179,8 +167,6 @@ Bithastighet
 Logga in
 [Enable Log File]
 Aktivera loggning till fil
-[Logs]
-Samtal
 [Duration]
 Längd
 [Info]
@@ -279,10 +265,24 @@ Tysta mikrofon
 Fyll åtminstone i de obligatoriska fälten markerade med *.
 [Ask your SIP provider how to configure the account correctly.]
 Fråga din SIP-leverantör hur du konfigurerar kontot.
-[Random Popup Position]
-Slumpmässig position av svara-rutan
 [Time]
 Tid
+[Phone]
+Knappsats
+[Ringtone]
+Ringsignal
+[Username]
+Användarnamn
+[Do you want to update now?]
+Vill du uppdatera nu?
+[Available Codecs]
+Tillgängliga codecs
+[Enabled Codecs]
+Aktiverade
+[Logs]
+Samtal
+[Random Popup Position]
+Slumpmässig position av svara-rutan
 [Attended Transfer]
 Välj att övervaka överföring
 [Launch URL on incoming call]

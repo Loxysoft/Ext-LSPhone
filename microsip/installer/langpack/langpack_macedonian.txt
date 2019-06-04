@@ -9,8 +9,6 @@ RTL: 0
 Прекини го повикот
 [Contacts]
 Контакти
-[Phone]
-Номенклатура за бирање
 [Account]
 Профил
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 Посети website
 [Exit]
 Излез
-[Ringtone]
-Звук на ѕвонење
 [Browse...]
 Одбери...
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP сервер
 [SIP Proxy]
 SIP Прокси
-[Username]
-Корисник
 [Domain]
 Домен
 [Password]
@@ -145,14 +139,8 @@ STUN сервер
 Никогаш
 [Update Available]
 Ново ажурирање на располагање
-[Do you want to update now?]
-Дали сакате да го ажурирате сега?
 [Force Codec for Incoming]
 Присили кодек за дојдовни
-[Available Codecs]
-Достапен
-[Enabled Codecs]
-Овозможено
 [Invalid URI]
 Невалиден URl
 [Offline]
@@ -179,8 +167,6 @@ Bit рата
 Пријави се
 [Enable Log File]
 Овозможи журнал датотека
-[Logs]
-Повици
 [Duration]
 Времетраење
 [Info]
@@ -279,10 +265,24 @@ SIP Заглавје
 Ве молиме, пополнете ги барем полињата означени со *.
 [Ask your SIP provider how to configure the account correctly.]
 Прашајте во вашиот SIP провајдер како правилно да го конфигурирате вашиот профил.
-[Random Popup Position]
-Рандом позиција
 [Time]
 Време
+[Phone]
+Номенклатура за бирање
+[Ringtone]
+Звук на ѕвонење
+[Username]
+Корисник
+[Do you want to update now?]
+Дали сакате да го ажурирате сега?
+[Available Codecs]
+Достапен
+[Enabled Codecs]
+Овозможено
+[Logs]
+Повици
+[Random Popup Position]
+Рандом позиција
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

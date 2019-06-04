@@ -9,8 +9,6 @@ RTL: 1
 انهى المكالمة
 [Contacts]
 ارقام
-[Phone]
-الأرقام
 [Account]
 الحساب
 [Settings]
@@ -19,8 +17,6 @@ RTL: 1
 زر الموقع
 [Exit]
 الخروج
-[Ringtone]
-صوت الرنين
 [Browse...]
 تصفح
 [Default]
@@ -38,9 +34,8 @@ RTL: 1
 خادم بروتوكول بدء الجلسة
 [SIP Proxy]
 بروكسي بروتوكول بدء الجلسة
-[Username]
-مستخدم
 [Domain]
+نطاق
 [Password]
 كلمة مرور
 [Connecting...]
@@ -142,13 +137,7 @@ RTL: 1
 ابدا
 [Update Available]
 ملفات مواكبة موجودة
-[Do you want to update now?]
-هل تريد تحديث؟
 [Force Codec for Incoming]
-[Available Codecs]
-متواجد
-[Enabled Codecs]
-فعّل
 [Invalid URI]
 [Offline]
 غير متصل
@@ -174,8 +163,6 @@ RTL: 1
 الدخول
 [Enable Log File]
 فعّل ملف اللوق
-[Logs]
-المكالمات
 [Duration]
 فترة
 [Info]
@@ -212,6 +199,7 @@ RTL: 1
 [Select All]
 اختر الجميع
 [Display Name]
+اسمك
 [Remember Details]
 تذكر التفاصيل
 [PIN]
@@ -267,10 +255,24 @@ RTL: 1
 من فضلك قم بملئ المجالات المطلوبةو المرموز لها ب *
 [Ask your SIP provider how to configure the account correctly.]
 اطلب من مزود بروتوكول بدء جلسة كيفية ضبط الحساب بشكل صحيح
-[Random Popup Position]
-موقف عشوائي من مربع الإجابة
 [Time]
 مرة
+[Phone]
+الأرقام
+[Ringtone]
+صوت الرنين
+[Username]
+مستخدم
+[Do you want to update now?]
+هل تريد تحديث؟
+[Available Codecs]
+متواجد
+[Enabled Codecs]
+فعّل
+[Logs]
+المكالمات
+[Random Popup Position]
+موقف عشوائي من مربع الإجابة
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

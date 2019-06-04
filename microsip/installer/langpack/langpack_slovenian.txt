@@ -8,7 +8,6 @@ Kliči
 [End Call]
 [Contacts]
 Stiki
-[Phone]
 [Account]
 Račun
 [Settings]
@@ -17,7 +16,6 @@ Nastavitve
 Poglej na website
 [Exit]
 Končaj
-[Ringtone]
 [Browse...]
 Prebrskaj....
 [Default]
@@ -33,8 +31,6 @@ Prekliči
 SIP strežnik
 [SIP Proxy]
 SIP proxy
-[Username]
-Uporabnik
 [Domain]
 [Password]
 Geslo
@@ -111,11 +107,7 @@ Mesečno
 Nikoli
 [Update Available]
 Posodoitve na voljo
-[Do you want to update now?]
 [Force Codec for Incoming]
-[Available Codecs]
-Dosegljiv
-[Enabled Codecs]
 [Invalid URI]
 [Offline]
 [Single Call Mode]
@@ -130,8 +122,6 @@ Preveži
 [Bitrate]
 [Login]
 [Enable Log File]
-[Logs]
-Klici
 [Duration]
 [Info]
 [display password]
@@ -190,8 +180,18 @@ Vsi klici
 [Contact Us]
 [Please fill out at least the required fields marked with *.]
 [Ask your SIP provider how to configure the account correctly.]
-[Random Popup Position]
 [Time]
+[Phone]
+[Ringtone]
+[Username]
+Uporabnik
+[Do you want to update now?]
+[Available Codecs]
+Dosegljiv
+[Enabled Codecs]
+[Logs]
+Klici
+[Random Popup Position]
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

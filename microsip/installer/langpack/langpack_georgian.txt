@@ -9,8 +9,6 @@ RTL: 0
 ზარის გათიშვა
 [Contacts]
 კონტაქტები
-[Phone]
-ციფერბლატი
 [Account]
 ანგარიში
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 ნახეთ პროგრამის საიტი
 [Exit]
 გამოსვლა
-[Ringtone]
-ზარის ხმა
 [Browse...]
 დათვალიერება...
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP სერვერი
 [SIP Proxy]
 SIP პროქსი
-[Username]
-მომხმარებელი
 [Domain]
 დომენი
 [Password]
@@ -145,14 +139,8 @@ STUN სერვერი
 არასოდეს
 [Update Available]
 განახლება ხელმისაწვდომია
-[Do you want to update now?]
-გნებავთ პროგრამის განახლება?
 [Force Codec for Incoming]
 შემომ. კოდეკის ფორსირება
-[Available Codecs]
-ხელმისაწვდომია
-[Enabled Codecs]
-ჩართულია
 [Invalid URI]
 არასწორი URI
 [Offline]
@@ -179,8 +167,6 @@ STUN სერვერი
 მომხმ.სახელი
 [Enable Log File]
 ოქმის ფაილის ჩართვა
-[Logs]
-ზარები
 [Duration]
 ხანგრძლივობა
 [Info]
@@ -279,10 +265,24 @@ IP-ს გადაწერის დაშვება
 გთხოვთ შეავსოთ სულ ცოტა * აღნიშნული ველები მაინც
 [Ask your SIP provider how to configure the account correctly.]
 ჰკითხეთ თქვენს SIP პროვაიდერს თუ როგორ უნდა დააკონფიგუროთ სწორად ანგარიში.
-[Random Popup Position]
-საპასუხო ყუთის შემთხვევითი პოზიცია
 [Time]
 დრო
+[Phone]
+ციფერბლატი
+[Ringtone]
+ზარის ხმა
+[Username]
+მომხმარებელი
+[Do you want to update now?]
+გნებავთ პროგრამის განახლება?
+[Available Codecs]
+ხელმისაწვდომია
+[Enabled Codecs]
+ჩართულია
+[Logs]
+ზარები
+[Random Popup Position]
+საპასუხო ყუთის შემთხვევითი პოზიცია
 [Attended Transfer]
 [Launch URL on incoming call]
 [Enable Local Account]

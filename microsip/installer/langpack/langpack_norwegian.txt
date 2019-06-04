@@ -9,8 +9,6 @@ Ring
 Avslutt
 [Contacts]
 Kontakter
-[Phone]
-Tastatur
 [Account]
 Konto
 [Settings]
@@ -19,8 +17,6 @@ Innstillinger
 Besøk websted
 [Exit]
 Avslutt
-[Ringtone]
-Ringelyd
 [Browse...]
 Bla gjennom...
 [Default]
@@ -39,8 +35,6 @@ Avbryt
 SIP tjener
 [SIP Proxy]
 SIP proxy
-[Username]
-Bruker
 [Domain]
 Domene
 [Password]
@@ -145,14 +139,8 @@ Kvartalsvis
 Aldri
 [Update Available]
 Oppdatering tilgjengelig
-[Do you want to update now?]
-Vil du oppdatere?
 [Force Codec for Incoming]
 Tving kodek for innkommende
-[Available Codecs]
-Tilgjengelig
-[Enabled Codecs]
-Aktivert
 [Invalid URI]
 Ugyldig URI
 [Offline]
@@ -179,8 +167,6 @@ Bitrate
 Identitet
 [Enable Log File]
 Aktiver logg-fil
-[Logs]
-Samtaler
 [Duration]
 Lengde
 [Info]
@@ -279,10 +265,24 @@ Demp mikrofon
 Vennligst fyll ut felter merket med *.
 [Ask your SIP provider how to configure the account correctly.]
 Be din SIP-leverandør om hjelp til konfigurering.
-[Random Popup Position]
-Tilfeldig plassering av dialog
 [Time]
 Tid
+[Phone]
+Tastatur
+[Ringtone]
+Ringelyd
+[Username]
+Bruker
+[Do you want to update now?]
+Vil du oppdatere?
+[Available Codecs]
+Tilgjengelig
+[Enabled Codecs]
+Aktivert
+[Logs]
+Samtaler
+[Random Popup Position]
+Tilfeldig plassering av dialog
 [Attended Transfer]
 Overvåket overføring
 [Launch URL on incoming call]

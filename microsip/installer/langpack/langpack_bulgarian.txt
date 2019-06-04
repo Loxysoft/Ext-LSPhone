@@ -9,8 +9,6 @@ RTL: 0
 Край
 [Contacts]
 Указател
-[Phone]
-Бутони
 [Account]
 Акаунт
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 Посети страницата
 [Exit]
 Изход
-[Ringtone]
-Звук звънене
 [Browse...]
 Избор...
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP сървър
 [SIP Proxy]
 SIP прокси
-[Username]
-Потребител
 [Domain]
 Домейн
 [Password]
@@ -145,14 +139,8 @@ STUN сървър
 Никога
 [Update Available]
 Налично е обновление
-[Do you want to update now?]
-Желаете ли да обновите?
 [Force Codec for Incoming]
 Задължитен кодек за входящ
-[Available Codecs]
-Достъпни кодеци
-[Enabled Codecs]
-Включени кодеци
 [Invalid URI]
 Невалиден URI
 [Offline]
@@ -179,8 +167,6 @@ STUN сървър
 Потребител
 [Enable Log File]
 Лог файл
-[Logs]
-Записи
 [Duration]
 Продължителност
 [Info]
@@ -279,10 +265,24 @@ SIP header
 Моля, попълнете поне задължителните полета, отбелязани със *.
 [Ask your SIP provider how to configure the account correctly.]
 Попитайте вашия доставчик на SIP как да конфигурирате акаунта.
-[Random Popup Position]
-Случ. позиция
 [Time]
 Час
+[Phone]
+Бутони
+[Ringtone]
+Звук звънене
+[Username]
+Потребител
+[Do you want to update now?]
+Желаете ли да обновите?
+[Available Codecs]
+Достъпни кодеци
+[Enabled Codecs]
+Включени кодеци
+[Logs]
+Записи
+[Random Popup Position]
+Случ. позиция
 [Attended Transfer]
 Асистиран трансфер
 [Launch URL on incoming call]

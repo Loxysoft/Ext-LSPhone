@@ -9,8 +9,6 @@ Anrufen
 Anruf beenden
 [Contacts]
 Kontakte
-[Phone]
-Wählfeld
 [Account]
 Konto
 [Settings]
@@ -19,8 +17,6 @@ Einstellungen
 Website besuchen
 [Exit]
 Programm schließen
-[Ringtone]
-Klingelton
 [Browse...]
 Durchsuchen...
 [Default]
@@ -39,8 +35,6 @@ Abbrechen
 SIP-Server
 [SIP Proxy]
 SIP-Proxy
-[Username]
-Benutzername
 [Domain]
 Domain
 [Password]
@@ -145,14 +139,8 @@ Quartalsweise
 Niemals
 [Update Available]
 Update verfügbar
-[Do you want to update now?]
-Wollen Sie jetzt updaten?
 [Force Codec for Incoming]
 Codec für Gesprächseingang erzwingen
-[Available Codecs]
-Verfügbare Codecs
-[Enabled Codecs]
-Aktivierte Codecs
 [Invalid URI]
 Ungültige URl
 [Offline]
@@ -179,8 +167,6 @@ Bitrate
 Anmelden
 [Enable Log File]
 Protokolldatei aktivieren
-[Logs]
-Anrufe
 [Duration]
 Dauer
 [Info]
@@ -279,10 +265,24 @@ Mikrofon stumm schalten
 Bitte füllen Sie mind. die mit * gekennzeichneten Felder aus.
 [Ask your SIP provider how to configure the account correctly.]
 Fragen Sie Ihren SIP-Provider, wie Ihr Account korrekt konfiguriert werden muss.
-[Random Popup Position]
-Zufällige Position der Antwortbox
 [Time]
 Zeit
+[Phone]
+Wählfeld
+[Ringtone]
+Klingelton
+[Username]
+Benutzername
+[Do you want to update now?]
+Wollen Sie jetzt updaten?
+[Available Codecs]
+Verfügbare Codecs
+[Enabled Codecs]
+Aktivierte Codecs
+[Logs]
+Anrufe
+[Random Popup Position]
+Zufällige Position der Antwortbox
 [Attended Transfer]
 Telefongespräch vermitteln
 [Launch URL on incoming call]

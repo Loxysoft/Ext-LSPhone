@@ -9,8 +9,6 @@ Chamar
 Terminar
 [Contacts]
 Contactos
-[Phone]
-Teclado
 [Account]
 Conta
 [Settings]
@@ -19,8 +17,6 @@ Configurações
 Visitar Website
 [Exit]
 Sair
-[Ringtone]
-Som de Chamada
 [Browse...]
 Procurar...
 [Default]
@@ -39,8 +35,6 @@ Cancelar
 Servidor SIP
 [SIP Proxy]
 Proxy SIP
-[Username]
-Utilizador
 [Domain]
 Domínio
 [Password]
@@ -145,14 +139,8 @@ Quinzenalmente
 Nunca
 [Update Available]
 Actualização Disponível
-[Do you want to update now?]
-Deseja actualizar agora?
 [Force Codec for Incoming]
 Forçar Codec para Entrada
-[Available Codecs]
-Codecs Disponíveis
-[Enabled Codecs]
-Codecs Activados
 [Invalid URI]
 URI Inválido
 [Offline]
@@ -179,8 +167,6 @@ Bitrate
 Login
 [Enable Log File]
 Activar Ficheiro de Log
-[Logs]
-Chamadas
 [Duration]
 Duração
 [Info]
@@ -280,10 +266,24 @@ Saldo
 Por favor preencha os campos marcados com *.
 [Ask your SIP provider how to configure the account correctly.]
 Verifique com o seu fornecedor SIP como configurar a conta correctamente.
-[Random Popup Position]
-Posição Aleatória
 [Time]
 Hora
+[Phone]
+Teclado
+[Ringtone]
+Som de Chamada
+[Username]
+Utilizador
+[Do you want to update now?]
+Deseja actualizar agora?
+[Available Codecs]
+Codecs Disponíveis
+[Enabled Codecs]
+Codecs Activados
+[Logs]
+Chamadas
+[Random Popup Position]
+Posição Aleatória
 [Attended Transfer]
 Transferência Assistida
 [Launch URL on incoming call]

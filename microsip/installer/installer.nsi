@@ -13,7 +13,7 @@
 ;--------------------------------
 ;General
 
-!define APPVERSON "3.19.15"
+!define APPVERSON "3.19.17"
 !define APPNAME "LSPhone"
 !define APPCOMPANY "Loxysoft"
 !define CUSTOM

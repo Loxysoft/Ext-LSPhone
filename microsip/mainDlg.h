@@ -23,6 +23,7 @@
 #include <afxwin.h>
 
 #include "define.h"
+#include "addons.h"
 #include <pjsua-lib/pjsua.h>
 #include <pjsua-lib/pjsua_internal.h>
 
@@ -84,7 +85,7 @@ public:
 	pjsua_transport_id transport_udp;
 	pjsua_transport_id transport_tcp;
 	pjsua_transport_id transport_tls;
-	pjsua_player_id player_id;
+	player_eof_data *player_eof_data;
 
 	int iconStatusbar;
 	CImageList *imageListMenu;
@@ -123,6 +124,7 @@ public:
 	pjsua_call_id CurrentCallId();
 	void PlayerPlay(CString filename, bool noLoop = false, bool inCall = false);
 	BOOL CopyStringToClipboard( IN const CString & str );
+	void OnTimerProgress();
 	void OnTimerCall ();
 
 	void SetupJumpList();

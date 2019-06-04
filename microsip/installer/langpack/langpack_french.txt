@@ -4,13 +4,11 @@ RTL: 0
 ; utf8
 
 [Call]
-Appeler
+Appele
 [End Call]
 Raccrocher
 [Contacts]
 Contacts
-[Phone]
-Clavier
 [Account]
 Compte
 [Settings]
@@ -19,8 +17,6 @@ Paramètres
 Visiter le site web
 [Exit]
 Quitter
-[Ringtone]
-Sonnerie
 [Browse...]
 Parcourir...
 [Default]
@@ -39,8 +35,6 @@ Annuler
 Serveur SIP
 [SIP Proxy]
 Proxy SIP
-[Username]
-Nom utilisateur
 [Domain]
 Domaine
 [Password]
@@ -145,14 +139,8 @@ Trimestrielle
 Jamais
 [Update Available]
 Mise à jour disponible
-[Do you want to update now?]
-Voulez-vous mettre à jour?
 [Force Codec for Incoming]
 Forcer codec pour appels entrants
-[Available Codecs]
-Codecs disponibles
-[Enabled Codecs]
-Codecs activés
 [Invalid URI]
 URI invalide
 [Offline]
@@ -179,8 +167,6 @@ Débit
 Login
 [Enable Log File]
 Activer les fichiers journaux
-[Logs]
-Appels
 [Duration]
 Durée
 [Info]
@@ -279,10 +265,24 @@ Microphone muet
 S"il vous plait, remplissez les champs obligatoires signalés par *.
 [Ask your SIP provider how to configure the account correctly.]
 Demandez à votre fournisseur SIP comment configurer le compte correctement.
-[Random Popup Position]
-Position aléatoire de la boîte de réponse
 [Time]
 Temps
+[Phone]
+Clavier
+[Ringtone]
+Sonnerie
+[Username]
+Nom utilisateur
+[Do you want to update now?]
+Voulez-vous mettre à jour?
+[Available Codecs]
+Codecs disponibles
+[Enabled Codecs]
+Codecs activés
+[Logs]
+Appels
+[Random Popup Position]
+Position aléatoire de la boîte de réponse
 [Attended Transfer]
 Transfert supervisé
 [Launch URL on incoming call]

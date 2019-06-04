@@ -288,17 +288,12 @@ LRESULT CmainDlg::onCallState(WPARAM wParam, LPARAM lParam)
 				str->SetString(Translate(_T("Cancel")));
 			}
 			else
-				if (call_info->last_status == 486 || call_info->last_status == 600 || call_info->last_status == 603) {
-					str->SetString(Translate(_T("Busy")));
-				}
-				else if (call_info->last_status == 404) {
-					str->SetString(Translate(_T("Not Found")));
+				if (call_info->acc_id && call_info->last_status >= 500 && call_info->last_status < 600) {
+					str->Format(_T("Server Failure: "));
+					str->AppendFormat(_T("%d %s"), call_info->last_status, Translate(rab.GetBuffer()));
 				}
 				else {
-					if (call_info->acc_id && call_info->last_status >= 500 && call_info->last_status < 600) {
-						str->Format(_T("Server Failure: "), rab);
-					}
-					str->AppendFormat(_T("%d %s"), call_info->last_status, Translate(rab.GetBuffer()));
+					str->SetString(rab);
 				}
 		}
 		break;
@@ -550,7 +545,6 @@ LRESULT CmainDlg::onCallState(WPARAM wParam, LPARAM lParam)
 	if (pageDialer->IsChild(&pageDialer->m_ButtonRec)) {
 		pageDialer->m_ButtonRec.EnableWindow(hasCalls);
 	}
-	Hid::SetLED(hasCalls);
 	return 0;
 }
 
@@ -746,11 +740,13 @@ static void on_incoming_call(pjsua_acc_id acc, pjsua_call_id call_id,
 		}
 
 		bool reject = false;
+		CString reason;
 		if (accountSettings.denyIncoming == _T("all")) {
 			reject = true;
 		}
 		else if (accountSettings.denyIncoming == _T("button")) {
 			reject = accountSettings.DND;
+			reason = _T("Do Not Disturb");
 		}
 		else if (accountSettings.denyIncoming == _T("user")) {
 			SIPURI sipuri_curr;
@@ -782,9 +778,11 @@ static void on_incoming_call(pjsua_acc_id acc, pjsua_call_id call_id,
 				reject = true;
 			}
 		}
-
 		if (reject) {
-			msip_call_busy(call_info.id);
+			if (reason.IsEmpty()) {
+				reason = _T("Denied");
+			}
+			msip_call_busy(call_info.id, reason);
 			goto return_on_incoming_call;
 		}
 
@@ -1955,6 +1953,10 @@ LRESULT CmainDlg::OnAccount(WPARAM wParam, LPARAM lParam)
 	return 0;
 }
 
+void CmainDlg::OnTimerProgress()
+{
+}
+
 void CmainDlg::OnTimerCall()
 {
 	pjsua_call_id call_id;
@@ -2027,7 +2029,6 @@ void CmainDlg::OnTimer(UINT_PTR TimerVal)
 				pjmedia_vid_dev_refresh();
 			}
 #endif
-			Hid::OpenDevice();
 		}
 	}
 	else if (TimerVal == IDT_TIMER_SAVE) {
@@ -2035,6 +2036,9 @@ void CmainDlg::OnTimer(UINT_PTR TimerVal)
 		accountSettings.SettingsSave();
 	}
 	else if (TimerVal == IDT_TIMER_CONTACTS_BLINK) {
+	}
+	else if (TimerVal == IDT_TIMER_PROGRESS) {
+		OnTimerProgress();
 	}
 	else if (TimerVal == IDT_TIMER_CALL) {
 		OnTimerCall();
@@ -2050,7 +2054,7 @@ void CmainDlg::OnTimer(UINT_PTR TimerVal)
 
 void CmainDlg::PJCreate()
 {
-	player_id = PJSUA_INVALID_ID;
+	player_eof_data = NULL;
 
 	if (accountSettings.audioCodecs.IsEmpty())
 	{
@@ -2307,11 +2311,11 @@ void CmainDlg::PJCreate()
 	}
 	int bitrate;
 	if (!accountSettings.videoH264) {
-		pjsua_vid_codec_set_priority(&pj_str("H264"), 0);
+		pjsua_vid_codec_set_priority(&pj_str("H264/99"), 0);
 	}
 	else
 	{
-		const pj_str_t codec_id = { "H264", 4 };
+		const pj_str_t codec_id = { "H264/99", 7 };
 		pjmedia_vid_codec_param param;
 		pjsua_vid_codec_get_param(&codec_id, &param);
 		if (accountSettings.videoBitrate) {
@@ -2340,12 +2344,12 @@ void CmainDlg::PJCreate()
 		pjsua_vid_codec_set_param(&codec_id, &param);
 	}
 	if (!accountSettings.videoH263) {
-		pjsua_vid_codec_set_priority(&pj_str("H263"), 0);
+		pjsua_vid_codec_set_priority(&pj_str("H263-1998/98"), 0);
 	}
 	else {
 		if (accountSettings.videoBitrate) {
 			bitrate = 1000 * accountSettings.videoBitrate;
-			const pj_str_t codec_id = { "H263", 4 };
+			const pj_str_t codec_id = { "H263-1998/98", 12 };
 			pjmedia_vid_codec_param param;
 			pjsua_vid_codec_get_param(&codec_id, &param);
 			param.enc_fmt.det.vid.avg_bps = bitrate;
@@ -2354,12 +2358,12 @@ void CmainDlg::PJCreate()
 		}
 	}
 	if (!accountSettings.videoVP8) {
-		pjsua_vid_codec_set_priority(&pj_str("VP8"), 0);
+		pjsua_vid_codec_set_priority(&pj_str("VP8/103"), 0);
 	}
 	else {
 		if (accountSettings.videoBitrate) {
 			bitrate = 1000 * accountSettings.videoBitrate;
-			const pj_str_t codec_id = { "VP8", 4 };
+			const pj_str_t codec_id = { "VP8/103", 7 };
 			pjmedia_vid_codec_param param;
 			pjsua_vid_codec_get_param(&codec_id, &param);
 			param.enc_fmt.det.vid.avg_bps = bitrate;
@@ -2431,7 +2435,6 @@ void CmainDlg::PJCreate()
 
 	PJAccountAddLocal();
 
-	Hid::OpenDevice();
 }
 
 void CmainDlg::UpdateSoundDevicesIds()
@@ -2465,7 +2468,6 @@ void CmainDlg::PJDestroy()
 	KillTimer(IDT_TIMER_CALL);
 
 	if (pj_ready) {
-		Hid::CloseDevice();
 		call_deinit_tonegen(-1);
 
 		toneCalls.RemoveAll();
@@ -2475,6 +2477,11 @@ void CmainDlg::PJDestroy()
 		}
 
 		PlayerStop();
+
+		if (player_eof_data) {
+			pj_pool_release(player_eof_data->pool);
+			player_eof_data = NULL;
+		}
 
 		if (accountSettings.accountId) {
 			PJAccountDelete();
@@ -2686,7 +2693,6 @@ void CmainDlg::PJAccountAdd()
 		ShowErrorMessage(status);
 		UpdateWindowText(_T(""), IDI_DEFAULT, true);
 	}
-
 	PublishStatus(true, acc_cfg.register_on_acc_add);
 
 }
@@ -3230,13 +3236,6 @@ LRESULT CmainDlg::onPlayerStop(WPARAM wParam, LPARAM lParam)
 	return 0;
 }
 
-
-struct pjsua_player_eof_data
-{
-	pj_pool_t          *pool;
-	pjsua_player_id player_id;
-};
-
 static PJ_DEF(pj_status_t) on_pjsua_wav_file_end_callback(pjmedia_port* media_port, void* args)
 {
 	mainDlg->PostMessage(UM_ON_PLAYER_STOP, 0, 0);
@@ -3246,17 +3245,20 @@ static PJ_DEF(pj_status_t) on_pjsua_wav_file_end_callback(pjmedia_port* media_po
 void CmainDlg::PlayerPlay(CString filename, bool noLoop, bool inCall)
 {
 	PlayerStop();
-	if (pjsua_var.state != PJSUA_STATE_NULL && !filename.IsEmpty()) {
+	if (!filename.IsEmpty()) {
 		pj_str_t file = StrToPjStr(filename);
-		if (pjsua_var.mconf && pjsua_player_create(&file, noLoop ? PJMEDIA_FILE_NO_LOOP : 0, &player_id) == PJ_SUCCESS) {
+		pjsua_player_id player_id;
+		if (pjsua_var.state == PJSUA_STATE_RUNNING && pjsua_player_create(&file, noLoop ? PJMEDIA_FILE_NO_LOOP : 0, &player_id) == PJ_SUCCESS) {
 			pjmedia_port *player_media_port;
 			if (pjsua_player_get_port(player_id, &player_media_port) == PJ_SUCCESS) {
-				if (noLoop) {
+				if (!player_eof_data) {
 					pj_pool_t *pool = pjsua_pool_create("microsip_eof_data", 512, 512);
-					struct pjsua_player_eof_data *eof_data = PJ_POOL_ZALLOC_T(pool, struct pjsua_player_eof_data);
-					eof_data->pool = pool;
-					eof_data->player_id = player_id;
-					pjmedia_wav_player_set_eof_cb(player_media_port, eof_data, &on_pjsua_wav_file_end_callback);
+					player_eof_data = PJ_POOL_ZALLOC_T(pool, struct player_eof_data);
+					player_eof_data->pool = pool;
+				}
+				player_eof_data->player_id = player_id;
+				if (noLoop) {
+					pjmedia_wav_player_set_eof_cb(player_media_port, player_eof_data, &on_pjsua_wav_file_end_callback);
 				}
 				if (
 					(!tone_gen && pjsua_conf_get_active_ports() <= 2)
@@ -3273,15 +3275,14 @@ void CmainDlg::PlayerPlay(CString filename, bool noLoop, bool inCall)
 
 void CmainDlg::PlayerStop()
 {
-	if (player_id != PJSUA_INVALID_ID) {
+	if (player_eof_data && player_eof_data->player_id != PJSUA_INVALID_ID) {
 		if (pjsua_var.state != PJSUA_STATE_NULL) {
-			pjsua_conf_disconnect(pjsua_player_get_conf_port(player_id), 0);
-			if (pjsua_player_destroy(player_id) == PJ_SUCCESS) {
-				player_id = PJSUA_INVALID_ID;
-			}
+			pjsua_conf_disconnect(pjsua_player_get_conf_port(player_eof_data->player_id), 0);
+			pjsua_player_destroy(player_eof_data->player_id);
+			player_eof_data->player_id = PJSUA_INVALID_ID;
 		}
 		else {
-			player_id = PJSUA_INVALID_ID;
+			player_eof_data->player_id = PJSUA_INVALID_ID;
 		}
 	}
 }

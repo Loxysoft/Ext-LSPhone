@@ -9,8 +9,6 @@ RTL: 0
 Τερματισμός κλήσης
 [Contacts]
 Επαφές
-[Phone]
-Πληκτρ/γιο
 [Account]
 Λογαριασμός
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 Επίσκεψη στην ιστοσελίδα
 [Exit]
 Έξοδος
-[Ringtone]
-Ήχος κουδουνίσματος
 [Browse...]
 Εύρεση...
 [Default]
@@ -39,8 +35,6 @@ OK
 Διακομιστής SIP
 [SIP Proxy]
 Διαμεσολαβητής SIP
-[Username]
-Χρήστης
 [Domain]
 Τομέας
 [Password]
@@ -145,14 +139,8 @@ Kωδικός πρόσβασης
 Ποτέ
 [Update Available]
 Διαθέσιμη ενημερωμένη έκδοση
-[Do you want to update now?]
-Θέλετε να ενημερώσετε;
 [Force Codec for Incoming]
 Εξαναγκασμός κωδικοποίησης εισερχομένων
-[Available Codecs]
-Διαθέσιμοι Κωδικοποιητές
-[Enabled Codecs]
-Ενεργοποιημένοι Κωδικοποιητές
 [Invalid URI]
 Μη έγκυρο URI
 [Offline]
@@ -179,8 +167,6 @@ Kωδικός πρόσβασης
 Σύνδεση
 [Enable Log File]
 Ενεργοποίηση αρχείου καταγραφής
-[Logs]
-Κλήσεις
 [Duration]
 Διάρκεια
 [Info]
@@ -279,10 +265,24 @@ Kωδικός πρόσβασης
 Συμπληρώστε τα υποχρεωτικά πεδία που είναι σημειωμένα με *.
 [Ask your SIP provider how to configure the account correctly.]
 Ρωτήστε τον πάροχο SIP τηλεφωνίας για την σωστή ρύθμιση του λογαριασμού.
-[Random Popup Position]
-Τυχαία θέση της εισερχόμενης κλήσης
 [Time]
 Χρόνος
+[Phone]
+Πληκτρ/γιο
+[Ringtone]
+Ήχος κουδουνίσματος
+[Username]
+Χρήστης
+[Do you want to update now?]
+Θέλετε να ενημερώσετε;
+[Available Codecs]
+Διαθέσιμοι Κωδικοποιητές
+[Enabled Codecs]
+Ενεργοποιημένοι Κωδικοποιητές
+[Logs]
+Κλήσεις
+[Random Popup Position]
+Τυχαία θέση της εισερχόμενης κλήσης
 [Attended Transfer]
 Παρακολούθηση Μεταφοράς
 [Launch URL on incoming call]

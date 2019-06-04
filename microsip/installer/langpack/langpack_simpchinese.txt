@@ -9,8 +9,6 @@ RTL: 0
 结束
 [Contacts]
 联系人
-[Phone]
-拨号盘
 [Account]
 帐号
 [Settings]
@@ -19,8 +17,6 @@ RTL: 0
 访问网站
 [Exit]
 退出
-[Ringtone]
-响铃声音
 [Browse...]
 浏览
 [Default]
@@ -39,8 +35,6 @@ RTL: 0
 SIP 服务器
 [SIP Proxy]
 SIP 代理
-[Username]
-用户
 [Domain]
 域名
 [Password]
@@ -145,14 +139,8 @@ STUN 服务器
 从不
 [Update Available]
 有更新可用
-[Do you want to update now?]
-是否现在升级?
 [Force Codec for Incoming]
 强制呼入的编码
-[Available Codecs]
-可用编码
-[Enabled Codecs]
-启用编码
 [Invalid URI]
 非法 URI
 [Offline]
@@ -179,8 +167,6 @@ STUN 服务器
 登录名
 [Enable Log File]
 启用日志文件
-[Logs]
-呼叫记录
 [Duration]
 持续时间
 [Info]
@@ -279,10 +265,24 @@ SIP 报头
 标有*的字段为必填项。
 [Ask your SIP provider how to configure the account correctly.]
 请询问你的 SIP 供应商如何正确设置账号
-[Random Popup Position]
-随机位置
 [Time]
 时间
+[Phone]
+拨号盘
+[Ringtone]
+响铃声音
+[Username]
+用户
+[Do you want to update now?]
+是否现在升级?
+[Available Codecs]
+可用编码
+[Enabled Codecs]
+启用编码
+[Logs]
+呼叫记录
+[Random Popup Position]
+随机位置
 [Attended Transfer]
 座席呼转
 [Launch URL on incoming call]

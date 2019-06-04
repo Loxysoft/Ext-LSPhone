@@ -9,8 +9,6 @@ Apel
 Sfârşit
 [Contacts]
 Cunoştinţe
-[Phone]
-Tastatură
 [Account]
 Cont
 [Settings]
@@ -19,8 +17,6 @@ Reglaje
 Vizitati site-ul
 [Exit]
 Ieşire
-[Ringtone]
-Sunetul de apel
 [Browse...]
 Răsfoire...
 [Default]
@@ -39,8 +35,6 @@ Anulare
 Server SIP
 [SIP Proxy]
 Proxy SIP
-[Username]
-Utilizator
 [Domain]
 Domain
 [Password]
@@ -145,14 +139,8 @@ Trimestrial
 Niciodată
 [Update Available]
 Actualizare disponibilă
-[Do you want to update now?]
-Vrei să actualizezi?
 [Force Codec for Incoming]
 Forţează codecul pentru intrare
-[Available Codecs]
-Codecuri disponibile
-[Enabled Codecs]
-Activat
 [Invalid URI]
 URI incorect
 [Offline]
@@ -179,8 +167,6 @@ Rată biţi
 Autentificare
 [Enable Log File]
 Activarea fişierului-jurnal
-[Logs]
-Apeluri
 [Duration]
 Durată
 [Info]
@@ -279,10 +265,24 @@ Fără sunet microfon
 Vă rugăm să completați cel puțin câmpurile obligatorii marcate cu *.
 [Ask your SIP provider how to configure the account correctly.]
 Adresați-vă furnizorului de SIP cum să configurați corect contul.
-[Random Popup Position]
-Poziția aleatorie a casetei de apel
 [Time]
 Timp
+[Phone]
+Tastatură
+[Ringtone]
+Sunetul de apel
+[Username]
+Utilizator
+[Do you want to update now?]
+Vrei să actualizezi?
+[Available Codecs]
+Codecuri disponibile
+[Enabled Codecs]
+Activat
+[Logs]
+Apeluri
+[Random Popup Position]
+Poziția aleatorie a casetei de apel
 [Attended Transfer]
 Transfer Anunţat
 [Launch URL on incoming call]
