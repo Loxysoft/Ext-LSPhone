@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+    <!--Simple UI based on WixUI_InstallDir, but without EULA Dialog-->
+    <UI Id ="WixUI_SimpleInstallDir">
+
+      <UIRef Id="WixUI_InstallDir"  />
+      <UIRef Id="WixUI_ErrorProgressText" />
+
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="InstallDirDlg" Order="2">1</Publish>
+      <Publish Dialog="InstallDirDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg" Order="2">1</Publish>
+    </UI>
+  </Fragment>
+</Wix>
