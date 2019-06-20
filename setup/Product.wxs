@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:fire='http://schemas.microsoft.com/wix/FirewallExtension'>
+
+  <?define ProductName = "Loxysoft LSPhone"?>
+  <?define ResDir = "Resources\"?>
+
+  <Product Id="*"
+           Name="$(var.ProductName)"
+           Language="1033"
+           Version="$(var.ProductVersion)"
+           Manufacturer="Loxysoft"
+           UpgradeCode="c7c9effc-e0e7-424a-80c0-f2116f098b4c">
+
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate EmbedCab="yes"/>
+
+    <Feature Id="ProductFeature" Title="LSPhoneSetup" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+
+    <Icon Id="LoxysoftSetupIcon.exe" SourceFile="..\microsip\res\microsip.ico" />
+    <Property Id="ARPPRODUCTICON" Value="LoxysoftSetupIcon.exe" />
+
+    <!--Loxysoft banners-->
+    <WixVariable Id="WixUIBannerBmp" Value="$(var.ResDir)LoxysoftBanner.jpg" />
+    <WixVariable Id="WixUIDialogBmp" Value="$(var.ResDir)LoxysoftWelcome.jpg" />
+
+    <!--UI Dialog flow-->
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />
+    <UIRef Id="WixUI_SimpleInstallDir" />
+
+    <InstallExecuteSequence>
+      <Custom Action='StripTrailingBackslash' Before='CostFinalize'>NOT Installed</Custom>
+    </InstallExecuteSequence>
+
+  </Product>
+
+  <Fragment>
+    <CustomAction Id="StripTrailingBackslash" Script="vbscript">
+      <![CDATA[         
+      value = Session.Property("INSTALLDIR")
+
+      If Right(value, 1) = "\" Then
+        value = Left(value, Len(value) - 1) 
+      End If
+
+      Session.Property("INSTALLDIR_NOBACKSLASH") = value
+      ]]>
+    </CustomAction>
+  </Fragment>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="Loxysoft" Name ="Loxysoft">
+          <Directory Id="INSTALLDIR" Name="LSPhone" />
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="$(var.ProductName)"/>
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop"/>
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+
+    <!--Start menu Shortcuts-->
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="StartMenuShortcuts" Guid="*">
+        <Shortcut Id="LSPhoneShortcut"
+                  Name="$(var.ProductName)"
+                  Target="[INSTALLDIR]lsphone.exe"
+                  WorkingDirectory="INSTALLDIR"/>
+
+        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\Loxysoft\LSPhone" Name="StartMenuShortcutsInstalled" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <!--Desktop shortcuts-->
+    <DirectoryRef Id="DesktopFolder">
+      <Component Id="DesktopShortcuts" Guid="*">
+        <Shortcut Id="LSPhoneDesktopShortcut"
+                  Name="$(var.ProductName)"
+                  Target="[INSTALLDIR]LSPhone.exe"
+                  WorkingDirectory="INSTALLDIR"/>
+
+        <RegistryValue Root="HKCU" Key="Software\Loxysoft\LSPhone" Name="DesktopShortcutsInstalled" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLDIR">
+
+      <Component Id="LSPhoneComponent">
+        <File Id="LSPhone"
+          Name="LSPhone.exe"
+            Source="..\Release\lsphone.exe"
+            Vital="yes"
+            DiskId="1">
+
+          <fire:FirewallException Id="LSPhoneException"
+            Name="$(var.ProductName)"
+            IgnoreFailure='yes'
+            Profile="all"
+            Scope="any"/>
+        </File>
+
+        <RegistryValue Root="HKLM" Key="Software\LSPhone" Type="string" Value="[INSTALLDIR_NOBACKSLASH]"/>
+      </Component>
+
+      <ComponentGroupRef Id="MediaFiles" />
+
+      <ComponentRef Id="StartMenuShortcuts" />
+
+      <ComponentRef Id="DesktopShortcuts" />
+
+      <Component Id="LicenseComponent">
+        <File Id="License"
+          Name="License.txt"
+          Source="..\microsip\installer\common\license.txt"
+          Vital="yes"
+          DiskId="1"/>
+      </Component>
+
+      <Component Id="SourceComponent">
+        <File Id="Source"
+          Name="Source.txt"
+          Source="Source.txt"
+          Vital="yes"
+          DiskId="1"/>
+      </Component>
+
+    </ComponentGroup>
+  </Fragment>
+</Wix>

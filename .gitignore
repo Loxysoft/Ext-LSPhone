@@ -1,1 +1,6 @@
 .vs/
+
+setup/obj
+setup/bin
+setup/packages
+setup/MediaFiles.wxs
