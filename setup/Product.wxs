@@ -10,7 +10,7 @@
            Language="1033"
            Version="$(var.ProductVersion)"
            Manufacturer="Loxysoft"
-           UpgradeCode="c7c9effc-e0e7-424a-80c0-f2116f098b4c">
+           UpgradeCode="49c70792-25c9-4f7f-b392-64cb01b27d2f">
 
     <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
