@@ -2,12 +2,12 @@
   <!-- Copy the files to bin before the build -->
   <Target Name="CopyLSPhoneToBin" BeforeTargets="BeforeBuild">
     <ItemGroup>
-      <FilesToCopy Include="$(MSBuildThisFileDirectory)..\LSPhone\*.*" />
+      <FilesToCopy Include="$(MSBuildThisFileDirectory)..\LSPhone-ICC\*.*" />
     </ItemGroup>
-    <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(TargetDir)LSPhone" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(TargetDir)LSPhone-ICC" SkipUnchangedFiles="true" />
   </Target>
   <!-- Delete the files from bin after clean -->
   <Target Name="DeleteLSPhoneFromBin" BeforeTargets="AfterClean">
-    <RemoveDir Directories="$(TargetDir)LSPhone" />
+    <RemoveDir Directories="$(TargetDir)LSPhone-ICC" />
   </Target>
 </Project>

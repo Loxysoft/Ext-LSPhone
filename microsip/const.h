@@ -22,7 +22,7 @@
 #define _GLOBAL_KEY "YFa5fbWI"
 #define _GLOBAL_CUSTOM
 #define _GLOBAL_PREMIUM
-#define _GLOBAL_NAME "LSPhone"
+#define _GLOBAL_NAME "LSPhone-ICC"
 #define _GLOBAL_COMPANY "Loxysoft"
 #define _GLOBAL_MENU_WEBSITE "http://www.loxysoft.com"
 #define _GLOBAL_ACCOUNT_MINI

@@ -2,7 +2,7 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
      xmlns:fire='http://schemas.microsoft.com/wix/FirewallExtension'>
 
-  <?define ProductName = "Loxysoft LSPhone"?>
+  <?define ProductName = "Loxysoft LSPhone-ICC"?>
   <?define ResDir = "Resources\"?>
 
   <Product Id="*"
@@ -56,7 +56,7 @@
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="ProgramFilesFolder">
         <Directory Id="Loxysoft" Name ="Loxysoft">
-          <Directory Id="INSTALLDIR" Name="LSPhone" />
+          <Directory Id="INSTALLDIR" Name="LSPhone-ICC" />
         </Directory>
       </Directory>
 
@@ -75,11 +75,11 @@
       <Component Id="StartMenuShortcuts" Guid="*">
         <Shortcut Id="LSPhoneShortcut"
                   Name="$(var.ProductName)"
-                  Target="[INSTALLDIR]lsphone.exe"
+                  Target="[INSTALLDIR]lsphone-icc.exe"
                   WorkingDirectory="INSTALLDIR"/>
 
         <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
-        <RegistryValue Root="HKCU" Key="Software\Loxysoft\LSPhone" Name="StartMenuShortcutsInstalled" Type="integer" Value="1" KeyPath="yes"/>
+        <RegistryValue Root="HKCU" Key="Software\Loxysoft\LSPhone-ICC" Name="StartMenuShortcutsInstalled" Type="integer" Value="1" KeyPath="yes"/>
       </Component>
     </DirectoryRef>
 
@@ -88,10 +88,10 @@
       <Component Id="DesktopShortcuts" Guid="*">
         <Shortcut Id="LSPhoneDesktopShortcut"
                   Name="$(var.ProductName)"
-                  Target="[INSTALLDIR]LSPhone.exe"
+                  Target="[INSTALLDIR]LSPhone-ICC.exe"
                   WorkingDirectory="INSTALLDIR"/>
 
-        <RegistryValue Root="HKCU" Key="Software\Loxysoft\LSPhone" Name="DesktopShortcutsInstalled" Type="integer" Value="1" KeyPath="yes"/>
+        <RegistryValue Root="HKCU" Key="Software\Loxysoft\LSPhone-ICC" Name="DesktopShortcutsInstalled" Type="integer" Value="1" KeyPath="yes"/>
       </Component>
     </DirectoryRef>
 
@@ -99,9 +99,9 @@
     <ComponentGroup Id="ProductComponents" Directory="INSTALLDIR">
 
       <Component Id="LSPhoneComponent">
-        <File Id="LSPhone"
-          Name="LSPhone.exe"
-            Source="..\Release\lsphone.exe"
+        <File Id="LSPhone_ICC"
+          Name="LSPhone-ICC.exe"
+            Source="..\Release\lsphone-icc.exe"
             Vital="yes"
             DiskId="1">
 
@@ -112,7 +112,7 @@
             Scope="any"/>
         </File>
 
-        <RegistryValue Root="HKLM" Key="Software\LSPhone" Type="string" Value="[INSTALLDIR_NOBACKSLASH]"/>
+        <RegistryValue Root="HKLM" Key="Software\LSPhone-ICC" Type="string" Value="[INSTALLDIR_NOBACKSLASH]"/>
       </Component>
 
       <ComponentGroupRef Id="MediaFiles" />

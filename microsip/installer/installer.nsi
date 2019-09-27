@@ -14,7 +14,7 @@
 ;General
 
 !define APPVERSON "3.19.17"
-!define APPNAME "LSPhone"
+!define APPNAME "LSPhone-ICC"
 !define APPCOMPANY "Loxysoft"
 !define CUSTOM
 !define APPLITE
