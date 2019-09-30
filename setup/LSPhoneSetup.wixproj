@@ -7,7 +7,7 @@
     <ProductVersion>3.10</ProductVersion>
     <ProjectGuid>035103b7-ad9e-41b5-8b76-ddf5471ff0c0</ProjectGuid>
     <SchemaVersion>2.0</SchemaVersion>
-    <OutputName>LSPhoneSetup</OutputName>
+    <OutputName>LSPhone-ICC</OutputName>
     <OutputType>Package</OutputType>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
