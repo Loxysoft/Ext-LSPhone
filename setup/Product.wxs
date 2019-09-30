@@ -17,7 +17,7 @@
     <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
     <MediaTemplate EmbedCab="yes"/>
 
-    <Feature Id="ProductFeature" Title="LSPhoneSetup" Level="1">
+    <Feature Id="ProductFeature" Title="LSPhone-ICC" Level="1">
       <ComponentGroupRef Id="ProductComponents" />
     </Feature>
 
